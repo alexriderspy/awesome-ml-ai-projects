@@ -8,7 +8,7 @@ Build them yourself, put them on your resume, beat the leaderboard. Free and ope
 
 Works with Ollama, DeepSeek, GPT, Claude, Gemini, Llama, Qwen and any OpenAI-compatible model.
 
-**[Video walkthroughs on YouTube](https://www.youtube.com/@sreemantidey)** · **[Quick start](#-quick-start)** · **[Browse all projects](#-browse-all-projects)**
+**[Website](https://alexriderspy.github.io/awesome-ml-ai-projects/)** · **[Video walkthroughs on YouTube](https://www.youtube.com/@sreemantidey)** · **[Quick start](#-quick-start)** · **[Browse all projects](#-browse-all-projects)**
 
 <br>
 
