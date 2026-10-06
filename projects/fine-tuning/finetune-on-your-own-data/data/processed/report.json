@@ -1,0 +1,21 @@
+{
+  "ingested": {
+    "faq": 45,
+    "notes": 10,
+    "chat": 22
+  },
+  "pii_replaced": {
+    "[EMAIL]": 1,
+    "[NAME]": 1,
+    "[PHONE]": 2,
+    "[CARD]": 1
+  },
+  "dropped": {
+    "instruction_too_short": 1,
+    "contains_sensitive": 1,
+    "exact_duplicate": 1
+  },
+  "kept": 74,
+  "train": 60,
+  "val": 14
+}

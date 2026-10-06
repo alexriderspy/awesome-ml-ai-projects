@@ -1,0 +1,4 @@
+torch>=2.2
+transformers>=4.44
+peft>=0.12
+pytest>=7

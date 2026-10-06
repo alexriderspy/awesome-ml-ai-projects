@@ -1,0 +1,14 @@
+model = "HuggingFaceTB/SmolLM2-135M-Instruct"
+n_rows = 3000
+n_heldout = 100
+max_len = 512
+lora_r = 16
+lora_alpha = 32
+lora_dropout = 0.0
+lr = 3e-4
+batch_size = 4
+grad_accum = 2
+max_steps = 120
+warmup_steps = 10
+seed = 3407
+out_dir = "outputs/local"

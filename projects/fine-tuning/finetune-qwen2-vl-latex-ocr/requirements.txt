@@ -1,0 +1,6 @@
+torch>=2.2
+transformers>=4.45
+peft>=0.12
+datasets>=2.20
+pillow>=10
+pytest>=7

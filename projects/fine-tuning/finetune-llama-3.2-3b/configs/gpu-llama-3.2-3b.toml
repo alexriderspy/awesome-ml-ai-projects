@@ -1,0 +1,15 @@
+model = "unsloth/Llama-3.2-3B-Instruct"
+n_rows = 100000
+n_heldout = 500
+max_len = 2048
+lora_r = 16
+lora_alpha = 16
+lora_dropout = 0.0
+load_in_4bit = true
+lr = 2e-4
+batch_size = 2
+grad_accum = 4
+max_steps = 60
+warmup_steps = 5
+seed = 3407
+out_dir = "outputs/llama-3.2-3b"

@@ -3,7 +3,7 @@ __pycache__/
 *.pyc
 .pytest_cache/
 .env
-data/
+projects/classic-ml/*/data/
 *.ckpt
 *.safetensors
 *.bin

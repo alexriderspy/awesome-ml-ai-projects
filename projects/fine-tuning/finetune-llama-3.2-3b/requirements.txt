@@ -1,0 +1,7 @@
+torch>=2.2
+transformers>=4.44
+peft>=0.12
+huggingface_hub>=0.24
+pyarrow>=15
+matplotlib>=3.8
+pytest>=7

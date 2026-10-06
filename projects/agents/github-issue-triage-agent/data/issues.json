@@ -1,0 +1,637 @@
+{
+  "project": "tinsel",
+  "labels": [
+    "bug",
+    "feature",
+    "docs",
+    "question",
+    "performance",
+    "needs-repro",
+    "good-first-issue"
+  ],
+  "issues": [
+    {
+      "number": 1,
+      "title": "Add a --drafts flag to `tinsel serve`",
+      "body": "When I preview locally I want to see my draft posts too. Right now I have to flip `draft: true` to false, look at it, and flip it back.\n\nProposal: `tinsel serve --drafts` includes drafts in the dev server only. `tinsel build` would keep ignoring them.",
+      "author": "mkowalski",
+      "created_at": "2026-01-04T10:00:00Z",
+      "state": "closed",
+      "labels": [
+        "feature",
+        "good-first-issue"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Code blocks lose highlighting when the language name is uppercase",
+      "body": "A fence like ```Python renders as plain text, while ```python is highlighted. Looks like the lexer lookup is case sensitive.\n\ntinsel 0.9.1, macOS 14. Minimal post:\n\n    ```Python\n    print('hi')\n    ```\n\nExpected: highlighted. Actual: plain `<pre>`.",
+      "author": "devon-ash",
+      "created_at": "2026-01-06T10:00:00Z",
+      "state": "closed",
+      "labels": [
+        "bug",
+        "good-first-issue"
+      ]
+    },
+    {
+      "number": 3,
+      "title": "RSS feed shows post dates shifted by one day",
+      "body": "Posts dated `2026-01-08` in front matter show up as Jan 7 in my feed reader (I'm in Chicago).\n\nfeed.xml contains `<pubDate>Thu, 08 Jan 2026 00:00:00 +0000</pubDate>`. Since the time is midnight UTC, anyone west of UTC sees the previous day. The site itself shows the right date.\n\nMaybe use the `timezone` from tinsel.toml, or noon, when the front matter has no time? tinsel 0.9.2.",
+      "author": "ritu.b",
+      "created_at": "2026-01-09T10:00:00Z",
+      "state": "open",
+      "labels": [
+        "bug"
+      ]
+    },
+    {
+      "number": 4,
+      "title": "How do I add Google Fonts to the default theme?",
+      "body": "I'd like to use Inter for body text. Do I copy the whole theme, or is there a hook to inject a `<link>` into the head?",
+      "author": "lena_w",
+      "created_at": "2026-01-11T10:00:00Z",
+      "state": "closed",
+      "labels": [
+        "question"
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Config reference doesn't document `output_dir`",
+      "body": "The configuration page lists `title`, `base_url`, `theme`, `taxonomies` and so on, but `output_dir` (where the built site goes, default `public/`) is not mentioned anywhere. I only found it by reading config.py.",
+      "author": "pjotr",
+      "created_at": "2026-01-12T10:00:00Z",
+      "state": "open",
+      "labels": [
+        "docs",
+        "good-first-issue"
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Build crashes with KeyError: 'title' when a post has no front matter",
+      "body": "A markdown file without a front matter block makes `tinsel build` die:\n\n```\nFile \"tinsel/content.py\", line 88, in load_post\n    title = meta['title']\nKeyError: 'title'\n```\n\nExpected: fall back to the file name, or at least a clear error naming the file. tinsel 0.9.2, Ubuntu 24.04.",
+      "author": "sam-oyelaran",
+      "created_at": "2026-01-15T10:00:00Z",
+      "state": "closed",
+      "labels": [
+        "bug"
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Support footnotes in Markdown",
+      "body": "Writing `Some claim[^1]` with `[^1]: source` at the bottom renders literally. Could the footnotes extension be enabled, or made a config option?",
+      "author": "aiko.t",
+      "created_at": "2026-01-18T10:00:00Z",
+      "state": "open",
+      "labels": [
+        "feature"
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Live reload doesn't pick up CSS changes",
+      "body": "Running `tinsel serve --watch`. Editing a markdown file reloads the browser as expected. Editing `themes/plain/static/style.css` does nothing: the old styles stay until I stop and restart the server.\n\nIt looks like the watcher only watches `content/`. tinsel 0.9.2, Firefox 128, Fedora 40.",
+      "author": "marcus-h",
+      "created_at": "2026-01-20T10:00:00Z",
+      "state": "open",
+      "labels": [
+        "bug"
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Typo in quickstart: `tinsel buld`",
+      "body": "Step 3 of the quickstart says `tinsel buld`. Should be `tinsel build`.",
+      "author": "nadia-q",
+      "created_at": "2026-01-22T10:00:00Z",
+      "state": "closed",
+      "labels": [
+        "docs",
+        "good-first-issue"
+      ]
+    },
+    {
+      "number": 10,
+      "title": "Image resizing re-runs on every build",
+      "body": "My site has ~900 photos and `tinsel build` spends most of its time regenerating the same thumbnails each time, even when nothing changed.\n\nCould resized images be cached (e.g. keyed by source hash + size) in a `.tinsel-cache` folder?",
+      "author": "hugo-fern",
+      "created_at": "2026-01-25T10:00:00Z",
+      "state": "open",
+      "labels": [
+        "feature",
+        "performance"
+      ]
+    },
+    {
+      "number": 11,
+      "title": "How to host on GitHub Pages in a project subfolder?",
+      "body": "My site is published at `https://ola-n.github.io/notes/`. Every link and stylesheet points to `/style.css`, `/posts/...` so they 404. What do I need to change?",
+      "author": "ola-n",
+      "created_at": "2026-01-28T10:00:00Z",
+      "state": "closed",
+      "labels": [
+        "question"
+      ]
+    },
+    {
+      "number": 12,
+      "title": "Something broke after upgrading",
+      "body": "Upgraded today and now my site looks wrong. Was fine before.",
+      "author": "quickfox",
+      "created_at": "2026-02-01T10:00:00Z",
+      "state": "closed",
+      "labels": [
+        "bug",
+        "needs-repro"
+      ]
+    },
+    {
+      "number": 13,
+      "title": "Add `tinsel new page` command",
+      "body": "`tinsel new post \"Title\"` is great. A matching `tinsel new page \"About\"` that creates `content/about.md` with page front matter (no date, no tags) would be nice.",
+      "author": "bree-l",
+      "created_at": "2026-02-03T10:00:00Z",
+      "state": "open",
+      "labels": [
+        "feature"
+      ]
+    },
+    {
+      "number": 14,
+      "title": "Sitemap uses backslashes on Windows",
+      "body": "Building on Windows 11 produces entries like:\n\n```\n<loc>https://example.com/posts\\hello-world\\</loc>\n```\n\nThe URL is built with `os.path.join` instead of a forward slash join. On Linux it's fine. tinsel 0.9.3, Python 3.12.",
+      "author": "j-mendes",
+      "created_at": "2026-02-05T10:00:00Z",
+      "state": "open",
+      "labels": [
+        "bug"
+      ]
+    },
+    {
+      "number": 15,
+      "title": "Docs: explain the difference between static/ and assets/",
+      "body": "The project layout page lists both `static/` and `assets/` but never says which files go where or what happens to each during a build.",
+      "author": "tobi-k",
+      "created_at": "2026-02-08T10:00:00Z",
+      "state": "closed",
+      "labels": [
+        "docs"
+      ]
+    },
+    {
+      "number": 16,
+      "title": "Shortcode for embedding YouTube videos",
+      "body": "Something like `{{< youtube id=\"abc123\" >}}` that outputs a privacy-friendly embed would save me pasting iframes.",
+      "author": "camille.r",
+      "created_at": "2026-02-10T10:00:00Z",
+      "state": "open",
+      "labels": [
+        "feature"
+      ]
+    },
+    {
+      "number": 17,
+      "title": "Draft posts show up in feed.xml",
+      "body": "Posts with `draft: true` are correctly left out of the index and tag pages, but they are still written into `feed.xml`. People subscribed to my feed saw a half-written post.\n\ntinsel 0.9.3. Steps: create a post with `draft: true`, run `tinsel build`, open public/feed.xml.",
+      "author": "e-novak",
+      "created_at": "2026-02-12T10:00:00Z",
+      "state": "open",
+      "labels": [
+        "bug"
+      ]
+    },
+    {
+      "number": 18,
+      "title": "Memory usage climbs during long `serve --watch` sessions",
+      "body": "After a few hours of editing with `tinsel serve --watch`, the process is at 2.5 GB RSS (starts around 120 MB). Each rebuild seems to keep the previous site object alive. tinsel 0.9.3, macOS 14, ~400 posts.",
+      "author": "ivan-p",
+      "created_at": "2026-02-15T10:00:00Z",
+      "state": "open",
+      "labels": [
+        "bug",
+        "performance"
+      ]
+    },
+    {
+      "number": 19,
+      "title": "Can I use Jinja macros from my theme inside Markdown?",
+      "body": "I have a `figure()` macro in my theme. Is there a way to call it from a post body, or are shortcodes the only option?",
+      "author": "fatima-z",
+      "created_at": "2026-02-18T10:00:00Z",
+      "state": "closed",
+      "labels": [
+        "question"
+      ]
+    },
+    {
+      "number": 20,
+      "title": "Error message for a missing theme is confusing",
+      "body": "If `theme = \"plane\"` (typo) the build fails with `TemplateNotFound: base.html`. It would be clearer to say `theme 'plane' not found in themes/ (available: plain, journal)`.",
+      "author": "leo-b",
+      "created_at": "2026-02-20T10:00:00Z",
+      "state": "closed",
+      "labels": [
+        "feature",
+        "good-first-issue"
+      ]
+    },
+    {
+      "number": 21,
+      "title": "Dark mode for the default theme",
+      "body": "The default `plain` theme is light only. Could it respect `prefers-color-scheme` and offer a toggle button in the header?",
+      "author": "sora-m",
+      "created_at": "2026-02-22T10:00:00Z",
+      "state": "open",
+      "labels": [
+        "feature"
+      ]
+    },
+    {
+      "number": 22,
+      "title": "Pagination link missing on the last page",
+      "body": "With 25 posts and `paginate = 10`, page 3 has no \"previous\" link, and page 2's \"next\" link points to /page/4/. Looks like an off-by-one. tinsel 0.9.3, steps: generate 25 posts with `tinsel new post`, build, check public/page/3/.",
+      "author": "g-roth",
+      "created_at": "2026-02-25T10:00:00Z",
+      "state": "closed",
+      "labels": [
+        "bug"
+      ]
+    },
+    {
+      "number": 23,
+      "title": "Docs example for `taxonomies` is invalid TOML",
+      "body": "The snippet on the config page has `taxonomies = [tags, categories]` without quotes, which TOML rejects. Should be `[\"tags\", \"categories\"]`.",
+      "author": "wen-li",
+      "created_at": "2026-02-27T10:00:00Z",
+      "state": "closed",
+      "labels": [
+        "docs",
+        "good-first-issue"
+      ]
+    },
+    {
+      "number": 24,
+      "title": "`tinsel serve` crashes with OSError when port 8000 is busy",
+      "body": "If another process already uses port 8000, `tinsel serve` prints a long traceback ending in `OSError: [Errno 48] Address already in use`.\n\nExpected: a short message, or automatically try the next free port. tinsel 0.9.4.",
+      "author": "rafa-c",
+      "created_at": "2026-03-02T10:00:00Z",
+      "state": "open",
+      "labels": [
+        "bug"
+      ]
+    },
+    {
+      "number": 25,
+      "title": "Is there a way to exclude a folder from the build?",
+      "body": "I keep notes in `content/_scratch/` that should never be published. Is there an ignore setting?",
+      "author": "ana-paz",
+      "created_at": "2026-03-04T10:00:00Z",
+      "state": "closed",
+      "labels": [
+        "question"
+      ]
+    },
+    {
+      "number": 26,
+      "title": "Add a --quiet flag to `tinsel build`",
+      "body": "In CI I only care about errors. A `--quiet` flag that hides the per-page log lines would make logs readable.",
+      "author": "kenji-o",
+      "created_at": "2026-03-06T10:00:00Z",
+      "state": "open",
+      "labels": [
+        "feature",
+        "good-first-issue"
+      ]
+    },
+    {
+      "number": 27,
+      "title": "Builds get very slow with lots of tags",
+      "body": "Site with 2,100 posts and ~650 tags: `tinsel build` takes over 3 minutes. Profiling shows almost all the time in `render_taxonomy`, which loops over every post for every tag (quadratic). Building a tag -> posts map once should fix it. tinsel 0.9.4.",
+      "author": "dmitri-v",
+      "created_at": "2026-03-09T10:00:00Z",
+      "state": "open",
+      "labels": [
+        "bug",
+        "performance"
+      ]
+    },
+    {
+      "number": 28,
+      "title": "`tinsel new post` writes CRLF line endings on Windows",
+      "body": "New posts created on Windows have `\\r\\n` endings, and the front matter parser then keeps a trailing `\\r` in the title. Steps: Windows 11, tinsel 0.9.4, `tinsel new post \"Hi\"`, build, view source of the page title.",
+      "author": "priya-s",
+      "created_at": "2026-03-11T10:00:00Z",
+      "state": "closed",
+      "labels": [
+        "bug"
+      ]
+    },
+    {
+      "number": 29,
+      "title": "There is no list of template variables",
+      "body": "When writing a theme I have to guess what's available in templates (`page`, `site`, `paginator`?). A reference page listing the variables and their fields would help a lot.",
+      "author": "noor-a",
+      "created_at": "2026-03-14T10:00:00Z",
+      "state": "open",
+      "labels": [
+        "docs"
+      ]
+    },
+    {
+      "number": 30,
+      "title": "Posts with non-Latin titles get an empty slug",
+      "body": "A post titled `Привет мир` is written to `public/posts//index.html`. The slugify function drops every non-ASCII character. A second Cyrillic post then overwrites the first. tinsel 0.9.4.",
+      "author": "olga-m",
+      "created_at": "2026-03-16T10:00:00Z",
+      "state": "open",
+      "labels": [
+        "bug"
+      ]
+    },
+    {
+      "number": 31,
+      "title": "Multiple authors per post",
+      "body": "Our team blog needs `authors: [ana, ben]` in front matter and author pages listing their posts.",
+      "author": "bea-t",
+      "created_at": "2026-03-19T10:00:00Z",
+      "state": "open",
+      "labels": [
+        "feature"
+      ]
+    },
+    {
+      "number": 32,
+      "title": "build fails",
+      "body": "build fails pls fix",
+      "author": "x9user",
+      "created_at": "2026-03-21T10:00:00Z",
+      "state": "closed",
+      "labels": [
+        "bug",
+        "needs-repro"
+      ]
+    },
+    {
+      "number": 33,
+      "title": "Link checker reports false positives for #anchors",
+      "body": "`tinsel check-links` flags `/guide/#install` as broken even though the heading exists. It seems to compare the whole URL including the fragment against file paths. tinsel 0.9.5.",
+      "author": "hal-9",
+      "created_at": "2026-03-24T10:00:00Z",
+      "state": "open",
+      "labels": [
+        "bug"
+      ]
+    },
+    {
+      "number": 34,
+      "title": "How do I change the date format on post pages?",
+      "body": "Dates show as 2026-03-27. I'd like \"27 March 2026\". Is that a config option or do I edit the template?",
+      "author": "mo-ibrahim",
+      "created_at": "2026-03-27T10:00:00Z",
+      "state": "closed",
+      "labels": [
+        "question"
+      ]
+    },
+    {
+      "number": 35,
+      "title": "README badge points to the old CI provider",
+      "body": "The build badge at the top of the README still links to the old CI service, which has been red for months. It should point to the current GitHub Actions workflow.",
+      "author": "c-dupont",
+      "created_at": "2026-03-30T10:00:00Z",
+      "state": "closed",
+      "labels": [
+        "docs",
+        "good-first-issue"
+      ]
+    },
+    {
+      "number": 36,
+      "title": "Add an --open flag to `tinsel serve` that opens the browser",
+      "body": "Small convenience: `tinsel serve --open` could call `webbrowser.open()` on the local URL once the server is up. Happy to send a PR if you agree.",
+      "author": "lucy-g",
+      "created_at": "2026-08-01T10:00:00Z",
+      "state": "open",
+      "labels": []
+    },
+    {
+      "number": 37,
+      "title": "Stylesheet edits need a server restart to show up",
+      "body": "While `tinsel serve --watch` is running, changes to my theme's style.css never reach the browser. Content edits trigger a refresh fine. I have to Ctrl+C and start the server again every time I tweak a color.\n\ntinsel 1.0.0 on Arch, Chromium.",
+      "author": "theo-v",
+      "created_at": "2026-08-02T10:00:00Z",
+      "state": "open",
+      "labels": []
+    },
+    {
+      "number": 38,
+      "title": "Tag pages are not sorted by date",
+      "body": "On `/tags/python/` the posts appear in what looks like file-name order. The home page is newest first, so I expected the same on tag pages. tinsel 1.0.0; any site with 3+ tagged posts shows it.",
+      "author": "ines-r",
+      "created_at": "2026-08-03T10:00:00Z",
+      "state": "open",
+      "labels": []
+    },
+    {
+      "number": 39,
+      "title": "Images whose file names contain spaces return 404",
+      "body": "Steps:\n1. Put `my photo.png` in `content/images/`\n2. Reference it as `![](images/my photo.png)` or `![](images/my%20photo.png)`\n3. `tinsel build && tinsel serve`\n\nThe image 404s. The file in `public/images/` is there, but the generated src is `images/my` (cut at the space) in the first case and double-encoded `my%2520photo.png` in the second. tinsel 1.0.1, macOS 15.",
+      "author": "kwame-a",
+      "created_at": "2026-08-04T10:00:00Z",
+      "state": "open",
+      "labels": []
+    },
+    {
+      "number": 40,
+      "title": "sitemap.xml has the wrong URL separators when built on Windows",
+      "body": "Search Console rejected my sitemap. The <loc> values contain `%5C` / backslashes, e.g. `https://anja.dev/blog%5Cmy-post%5C`. I build on a Windows laptop; my friend who builds the same repo on Linux gets valid URLs. tinsel 1.0.1.",
+      "author": "anja-k",
+      "created_at": "2026-08-05T10:00:00Z",
+      "state": "open",
+      "labels": []
+    },
+    {
+      "number": 41,
+      "title": "`serve --watch` crashes when a file is deleted",
+      "body": "Deleting a post while the dev server is watching kills it:\n\n```\nFileNotFoundError: [Errno 2] No such file or directory: 'content/posts/old.md'\n  File \"tinsel/watch.py\", line 54, in on_modified\n```\n\nRenaming a file triggers the same crash. tinsel 1.0.1, Ubuntu 24.04.",
+      "author": "paulo-s",
+      "created_at": "2026-08-06T10:00:00Z",
+      "state": "open",
+      "labels": []
+    },
+    {
+      "number": 42,
+      "title": "Please add a light/dark switch to the bundled theme",
+      "body": "Reading my blog at night is painful. It'd be great if the theme that ships with tinsel had a dark variant that follows the OS setting, plus a button to flip between them.",
+      "author": "yuki-h",
+      "created_at": "2026-08-07T10:00:00Z",
+      "state": "open",
+      "labels": []
+    },
+    {
+      "number": 43,
+      "title": "What should base_url be for local preview?",
+      "body": "My tinsel.toml has `base_url = \"https://elif.blog\"`. When I run `tinsel serve`, do I need to change it to localhost, or does the dev server override it?",
+      "author": "elif-d",
+      "created_at": "2026-08-08T10:00:00Z",
+      "state": "open",
+      "labels": []
+    },
+    {
+      "number": 44,
+      "title": "Feed readers show my posts one day early",
+      "body": "Every post I publish shows up in Feedly and NetNewsWire with the previous day's date. I'm in Vancouver. Looking at the generated feed, the pubDate is always 00:00 +0000 on the front matter date, which is the evening before here. The post pages themselves show the correct date.",
+      "author": "bruno-m",
+      "created_at": "2026-08-09T10:00:00Z",
+      "state": "open",
+      "labels": []
+    },
+    {
+      "number": 45,
+      "title": "Allow TOML front matter (+++ delimiters)",
+      "body": "tinsel only accepts YAML front matter between `---` lines. Please also accept TOML between `+++` lines so `title = \"Hello\"` style headers work.",
+      "author": "hana-s",
+      "created_at": "2026-08-10T10:00:00Z",
+      "state": "open",
+      "labels": []
+    },
+    {
+      "number": 46,
+      "title": "Broken image when the file name has a blank in it",
+      "body": "I dropped `team photo.jpg` into content/images and referenced it from my about page. The page shows a broken image icon. After renaming the file to `team-photo.jpg` it works. Using tinsel 1.0.1 on Windows.",
+      "author": "nils-o",
+      "created_at": "2026-08-11T10:00:00Z",
+      "state": "open",
+      "labels": []
+    },
+    {
+      "number": 47,
+      "title": "Deploy guide still mentions `tinsel publish`",
+      "body": "The deployment guide tells you to run `tinsel publish`, but that command was removed in 1.0 (the changelog says to use `tinsel build` and upload `public/`). The guide should be updated.",
+      "author": "rosa-v",
+      "created_at": "2026-08-12T10:00:00Z",
+      "state": "open",
+      "labels": []
+    },
+    {
+      "number": 48,
+      "title": "Generating hundreds of tag pages takes minutes",
+      "body": "My site has ~800 tags. Build time went from seconds to almost 4 minutes as the tag count grew. cProfile puts nearly everything in the taxonomy rendering step; it seems to scan all posts again for each tag. tinsel 1.0.1.",
+      "author": "chen-w",
+      "created_at": "2026-08-13T10:00:00Z",
+      "state": "open",
+      "labels": []
+    },
+    {
+      "number": 49,
+      "title": "it doesnt work",
+      "body": "installed tinsel and nothing happens. help",
+      "author": "newbie2026",
+      "created_at": "2026-08-14T10:00:00Z",
+      "state": "open",
+      "labels": []
+    },
+    {
+      "number": 50,
+      "title": "Assets and links broken when site lives at username.github.io/blog/",
+      "body": "I deployed to GitHub Pages and the site is served from `/blog/`. The HTML loads but there's no CSS and every link goes to `zara-k.github.io/posts/...` without the `/blog` part. Which setting am I missing?",
+      "author": "zara-k",
+      "created_at": "2026-08-15T10:00:00Z",
+      "state": "open",
+      "labels": []
+    },
+    {
+      "number": 51,
+      "title": "Render Mermaid diagrams in code blocks",
+      "body": "It would be useful if ```mermaid fences were turned into diagrams (e.g. by emitting a `<div class=\"mermaid\">` and loading mermaid.js from the theme).",
+      "author": "omar-f",
+      "created_at": "2026-08-16T10:00:00Z",
+      "state": "open",
+      "labels": []
+    },
+    {
+      "number": 52,
+      "title": "Unpublished posts leak into the RSS feed",
+      "body": "I keep work-in-progress posts in the repo with `draft: true`. They are hidden on the site, but my subscribers got notified about them because they appear in the generated feed. tinsel 1.0.1.",
+      "author": "greta-l",
+      "created_at": "2026-08-17T10:00:00Z",
+      "state": "open",
+      "labels": []
+    },
+    {
+      "number": 53,
+      "title": "Sitemap order changes between builds",
+      "body": "Running `tinsel build` twice on the same content gives sitemap.xml files with the same URLs in a different order, so my deploy always sees a changed file. Probably iterating over a set. tinsel 1.0.1, Linux.",
+      "author": "vik-r",
+      "created_at": "2026-08-18T10:00:00Z",
+      "state": "open",
+      "labels": []
+    },
+    {
+      "number": 54,
+      "title": "Front matter in TOML instead of YAML?",
+      "body": "I'm migrating ~300 posts from Hugo and they all start with `+++` blocks written in TOML. Converting them is tedious. Would you consider supporting that format directly?",
+      "author": "felix-b",
+      "created_at": "2026-08-19T10:00:00Z",
+      "state": "open",
+      "labels": []
+    },
+    {
+      "number": 55,
+      "title": "How can I add a custom 404 page?",
+      "body": "GitHub Pages and Netlify both serve `404.html` if it exists. What's the tinsel way to produce one with my theme's layout?",
+      "author": "maya-j",
+      "created_at": "2026-08-20T10:00:00Z",
+      "state": "open",
+      "labels": []
+    },
+    {
+      "number": 56,
+      "title": "Chinese post titles produce the URL /posts//",
+      "body": "A post with `title: 你好世界` ends up at `/posts//`. If I add a second post with a Chinese title, it replaces the first one because both get the same empty path. tinsel 1.0.1.",
+      "author": "li-wei",
+      "created_at": "2026-08-21T10:00:00Z",
+      "state": "open",
+      "labels": []
+    },
+    {
+      "number": 57,
+      "title": "Use all CPU cores for image processing",
+      "body": "Even when thumbnails need regenerating, only one core is busy. With 5,000 photos a full build takes 20 minutes. Could resizing run in a process pool?",
+      "author": "sven-n",
+      "created_at": "2026-08-22T10:00:00Z",
+      "state": "open",
+      "labels": []
+    },
+    {
+      "number": 58,
+      "title": "`output_dir` setting is missing from the configuration docs",
+      "body": "I wanted the site to be written to `dist/` instead of `public/`. Reading the source I found an `output_dir` option, but the configuration page never mentions it.",
+      "author": "amara-o",
+      "created_at": "2026-08-23T10:00:00Z",
+      "state": "open",
+      "labels": []
+    },
+    {
+      "number": 59,
+      "title": "UnicodeDecodeError when a Markdown file is Latin-1 encoded",
+      "body": "One of my older posts was saved as ISO-8859-1. `tinsel build` stops with:\n\n```\nUnicodeDecodeError: 'utf-8' codec can't decode byte 0xe9 in position 210\n```\n\nand doesn't say which file. tinsel 1.0.1. A clear error naming the file (or an `encoding` option) would help.",
+      "author": "pierre-l",
+      "created_at": "2026-08-24T10:00:00Z",
+      "state": "open",
+      "labels": []
+    },
+    {
+      "number": 60,
+      "title": "Address already in use error when starting the dev server",
+      "body": "If something is already listening on 8000, `tinsel serve` dies with a traceback. Could it either pick the next port or print a friendly message? tinsel 1.0.1.",
+      "author": "tomas-r",
+      "created_at": "2026-08-25T10:00:00Z",
+      "state": "open",
+      "labels": []
+    }
+  ]
+}

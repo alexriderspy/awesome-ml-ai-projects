@@ -1,0 +1,22 @@
+[
+  {"id": "bullets-3", "prompt": "Give exactly three tips for keeping houseplants alive. Use a bulleted list with '-' and nothing else.", "checks": [{"kind": "bullets", "arg": 3}]},
+  {"id": "lowercase", "prompt": "Describe a rainy morning in two sentences. Write everything in lowercase letters only.", "checks": [{"kind": "lowercase"}, {"kind": "max_sentences", "arg": 3}]},
+  {"id": "json-keys", "prompt": "Return a JSON object describing a fictional book with the keys \"title\", \"author\" and \"year\". Output only the JSON.", "checks": [{"kind": "json_keys", "arg": ["title", "author", "year"]}]},
+  {"id": "under-20", "prompt": "In under 20 words, explain what a compiler does.", "checks": [{"kind": "max_words", "arg": 20}, {"kind": "includes", "arg": ["code"]}]},
+  {"id": "uppercase", "prompt": "Write a short warning sign for a wet floor. Use only capital letters.", "checks": [{"kind": "uppercase"}, {"kind": "max_words", "arg": 30}]},
+  {"id": "numbered-5", "prompt": "List five planets of the solar system as a numbered list (1. 2. 3. ...). No extra text.", "checks": [{"kind": "numbered", "arg": 5}]},
+  {"id": "start-yes", "prompt": "Is water made of hydrogen and oxygen? Start your answer with the word 'Yes' or 'No'.", "checks": [{"kind": "starts_with", "arg": "Yes"}]},
+  {"id": "no-commas", "prompt": "Explain why the sky looks blue. Do not use any commas in your answer.", "checks": [{"kind": "no_char", "arg": ","}, {"kind": "includes", "arg": ["light"]}]},
+  {"id": "end-phrase", "prompt": "Write a two-sentence note thanking a colleague for help with a report. End your note with the exact phrase 'Talk soon'.", "checks": [{"kind": "ends_with", "arg": "Talk soon"}]},
+  {"id": "include-words", "prompt": "Write one sentence about a picnic that includes the words 'basket', 'river' and 'lemonade'.", "checks": [{"kind": "includes", "arg": ["basket", "river", "lemonade"]}, {"kind": "max_sentences", "arg": 2}]},
+  {"id": "avoid-word", "prompt": "Describe a cat in three sentences without using the word 'cute'.", "checks": [{"kind": "excludes", "arg": ["cute"]}, {"kind": "max_sentences", "arg": 4}]},
+  {"id": "one-word", "prompt": "What is the capital of France? Reply with one word only.", "checks": [{"kind": "max_words", "arg": 2}, {"kind": "includes", "arg": ["Paris"]}]},
+  {"id": "min-words", "prompt": "Write at least 80 words about why people learn to cook at home.", "checks": [{"kind": "min_words", "arg": 80}]},
+  {"id": "bullets-2-json-free", "prompt": "Give two pros of cycling to work as a bulleted list using '-'. Do not mention cars.", "checks": [{"kind": "bullets", "arg": 2}, {"kind": "excludes", "arg": ["car"]}]},
+  {"id": "json-weather", "prompt": "Output only a JSON object with keys \"city\" and \"temperature_c\" for a made-up weather report.", "checks": [{"kind": "json_keys", "arg": ["city", "temperature_c"]}]},
+  {"id": "start-dear", "prompt": "Write a three-sentence letter to a landlord about a broken heater. Begin with 'Dear'.", "checks": [{"kind": "starts_with", "arg": "Dear"}, {"kind": "includes", "arg": ["heater"]}]},
+  {"id": "one-sentence", "prompt": "Summarise the idea of recycling in a single sentence.", "checks": [{"kind": "max_sentences", "arg": 1}]},
+  {"id": "numbered-3-steps", "prompt": "Give three numbered steps (1. 2. 3.) to boil an egg.", "checks": [{"kind": "numbered", "arg": 3}, {"kind": "includes", "arg": ["water"]}]},
+  {"id": "under-10-lower", "prompt": "Name a fruit that is yellow. Answer in under 10 words, all lowercase.", "checks": [{"kind": "max_words", "arg": 10}, {"kind": "lowercase"}]},
+  {"id": "no-letter-e-list", "prompt": "Write a haiku about snow. Do not use any question marks or exclamation marks.", "checks": [{"kind": "no_char", "arg": "!"}, {"kind": "no_char", "arg": "?"}, {"kind": "includes", "arg": ["snow"]}]}
+]

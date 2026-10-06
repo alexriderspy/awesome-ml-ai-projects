@@ -37,6 +37,17 @@ Hands-on ML and AI projects you build yourself. Each one has working reference c
 | [House Price App](projects/classic-ml/house-price-app) | A deployed model with an uncertainty band | Beginner | [watch](https://www.youtube.com/watch?v=1ZhBWDdRn6o) |
 | [Weather Prediction App](projects/classic-ml/weather-prediction-app) | Tomorrow's temperature vs a persistence baseline | Beginner | [watch](https://www.youtube.com/watch?v=DmCAFi896IU) |
 
+### Fine-tuning
+
+These include the code and a Colab notebook for each run. Training needs a GPU for the full-size models.
+
+| Project | What you build | Level | Video |
+|---|---|---|---|
+| [Fine-tune Llama 3.2 3B](projects/fine-tuning/finetune-llama-3.2-3b) | LoRA SFT on FineTome-100k with Unsloth | Intermediate | [watch](https://www.youtube.com/watch?v=dn2anUU0d0U) |
+| [Fine-tune on Your Own Data](projects/fine-tuning/finetune-on-your-own-data) | Clean your notes and chats into a dataset, then train | Intermediate | [watch](https://www.youtube.com/watch?v=OxfeK423y2I) |
+| [Qwen2-VL LaTeX OCR](projects/fine-tuning/finetune-qwen2-vl-latex-ocr) | Formula image to LaTeX with a vision-language model | Advanced | [watch](https://www.youtube.com/watch?v=i5kDh35sJ9M) |
+| [Small Model Beats Big](projects/fine-tuning/small-model-beats-big) | A 360M model vs a big API model on ticket routing | Intermediate | |
+
 ## How each project works
 
 ```
