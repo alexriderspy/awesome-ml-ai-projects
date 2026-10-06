@@ -1,0 +1,23 @@
+{
+ "id": "job-ml-contract",
+ "schema": "job_post",
+ "text": "CONTRACT - 6 months, possible extension.\nMachine Learning Engineer (NLP) for a fintech client of Brightline Recruitment.\nFully remote (you must live in the EU).\nRate: €650–€750 per day.\nRequirements: 4+ years of ML in production, PyTorch, Hugging Face Transformers, MLflow.\nStart ASAP.",
+ "gold": {
+  "title": "Machine Learning Engineer (NLP)",
+  "company": "Brightline Recruitment",
+  "location": null,
+  "work_mode": "remote",
+  "employment_type": "contract",
+  "salary_min": 650,
+  "salary_max": 750,
+  "salary_currency": "EUR",
+  "salary_period": "day",
+  "min_years_experience": 4,
+  "skills": [
+   "PyTorch",
+   "Hugging Face Transformers",
+   "MLflow"
+  ],
+  "apply_by": null
+ }
+}

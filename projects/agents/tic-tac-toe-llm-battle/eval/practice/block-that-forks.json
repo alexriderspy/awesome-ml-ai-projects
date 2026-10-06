@@ -1,0 +1,7 @@
+{
+  "id": "block-that-forks",
+  "board": "X.O.O...X",
+  "kind": "block",
+  "answer": 7,
+  "note": "O threatens 3-5-7; blocking at 7 also gives X a fork (4 and 8)."
+}

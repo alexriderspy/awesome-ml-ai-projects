@@ -1,0 +1,3 @@
+{
+  "issue": "deep_merge changes the default config it was given, so the second merge sees settings from the first. It also crashes when an override puts a dict where the base had a plain value."
+}

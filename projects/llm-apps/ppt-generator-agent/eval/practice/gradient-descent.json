@@ -1,0 +1,28 @@
+{
+ "id": "gradient-descent",
+ "topic": "Gradient descent explained",
+ "n_slides": 5,
+ "keywords": [
+  [
+   "learning rate"
+  ],
+  [
+   "loss",
+   "cost function"
+  ],
+  [
+   "gradient"
+  ],
+  [
+   "local minim",
+   "minimum",
+   "minima"
+  ],
+  [
+   "stochastic",
+   "mini-batch",
+   "minibatch",
+   "sgd"
+  ]
+ ]
+}

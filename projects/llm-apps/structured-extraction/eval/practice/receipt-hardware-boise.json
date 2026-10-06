@@ -1,0 +1,34 @@
+{
+ "id": "receipt-hardware-boise",
+ "schema": "receipt",
+ "text": "HANDY HOLLOW HARDWARE #212\n2290 W Alder St, Boise ID\nDate: Jan 9, 2026  3:17PM\nCashier: DMITRI\nITEM                 QTY   AMT\nWOOD SCREWS 1-5/8 BX   2  15.98\n  @ 7.99 ea\nPAINTERS TAPE 2IN      3  14.37\n  @ 4.79 ea\nLED BULB 4PK           1  11.49\nSUBTOTAL                 $41.84\nMEMBER DISC 10%          -$4.18\nSALES TAX 6%              $2.26\nTOTAL                    $39.92\nVISA DEBIT  XXXX9921     $39.92",
+ "gold": {
+  "merchant": "Handy Hollow Hardware",
+  "date": "2026-01-09",
+  "currency": "USD",
+  "items": [
+   {
+    "name": "Wood Screws 1-5/8 box",
+    "quantity": 2,
+    "total": 15.98
+   },
+   {
+    "name": "Painters Tape 2in",
+    "quantity": 3,
+    "total": 14.37
+   },
+   {
+    "name": "LED Bulb 4pk",
+    "quantity": 1,
+    "total": 11.49
+   }
+  ],
+  "subtotal": 41.84,
+  "discount": 4.18,
+  "tax": 2.26,
+  "tax_included": false,
+  "tip": null,
+  "total": 39.92,
+  "payment_method": "card"
+ }
+}

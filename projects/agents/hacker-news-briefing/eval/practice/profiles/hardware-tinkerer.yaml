@@ -1,0 +1,16 @@
+name: Kwame
+about: Hobbyist who builds home automation and electronics on weekends.
+interests:
+  - name: smart home
+    weight: 3
+    keywords: [zigbee, home assistant, sensor, smart home, esp32, home lab, raspberry pi]
+  - name: energy
+    weight: 2
+    keywords: [solar, battery, power]
+  - name: electronics and chips
+    weight: 2
+    keywords: [chip, semiconductor, risc-v, soldering, hardware, pcb, fpga]
+  - name: retro computing
+    weight: 1
+    keywords: [retro, vintage, emulator, synthesizer, analog]
+dislikes: [chatgpt, social media, crypto]

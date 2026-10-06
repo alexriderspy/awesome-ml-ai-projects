@@ -1,0 +1,7 @@
+{
+ "name": "pydantic",
+ "version": "1.10.3",
+ "missing": false,
+ "yanked": true,
+ "yanked_reason": "See https://github.com/pydantic/pydantic/issues/4885"
+}

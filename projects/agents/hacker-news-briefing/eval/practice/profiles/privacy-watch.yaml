@@ -1,0 +1,16 @@
+name: Lena
+about: Journalist who covers surveillance, privacy and tech policy.
+interests:
+  - name: surveillance
+    weight: 3
+    keywords: [surveillance, flock, facial recognition, location data, tracking, data broker, police]
+  - name: privacy
+    weight: 3
+    keywords: [privacy, anonymisation, anonymization, encryption, public records]
+  - name: elections and policy
+    weight: 2
+    keywords: [ballot, election, regulation, senate, law, censorship, government, copyright]
+  - name: platform power
+    weight: 1
+    keywords: [apple, google, platform]
+dislikes: [programming language, javascript, crypto]

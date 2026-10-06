@@ -1,0 +1,7 @@
+{
+  "id": "o-blocks-middle-row",
+  "board": "O..XX....",
+  "kind": "block",
+  "answer": 6,
+  "note": "X has 4 and 5; O must take 6."
+}

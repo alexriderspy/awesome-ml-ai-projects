@@ -1,0 +1,117 @@
+{
+  "title": "How Solar Panels Turn Sunlight into Electricity",
+  "subtitle": "A beginner-friendly journey from photons to power",
+  "sections": [
+    {
+      "title": "Sunlight and Solar Panels",
+      "slides": [
+        {
+          "title": "Sunlight: The Original Energy Source",
+          "bullets": [
+            "Sun fuses hydrogen into helium, releasing photons",
+            "Photons take about 8 minutes to reach Earth",
+            "Earth receives 173,000 terawatts of solar power continuously",
+            "Solar panels convert a fraction of this into electricity",
+            "Sunlight is renewable and available daily"
+          ],
+          "notes": "The sun is a massive fusion reactor, turning hydrogen into helium and releasing photons. These photons travel 93 million miles in about 8 minutes. Earth intercepts about 173,000 terawatts continuously\u2014far more than humanity uses. Solar panels capture just a fraction of this free, renewable energy. Understanding this flow is the first step to seeing how a panel turns light into electricity.",
+          "image_query": "sun solar energy"
+        },
+        {
+          "title": "Inside a Solar Panel",
+          "bullets": [
+            "Glass protects cells and lets sunlight through",
+            "Silicon cells are sandwiched between protective layers",
+            "Metal frame holds panel, wires carry current out",
+            "Photons hit silicon, excite electrons into motion",
+            "Electric field pushes electrons, creating usable current"
+          ],
+          "notes": "A solar panel is a sandwich of layers. Tempered glass on top protects the silicon cells while letting light pass. Below the glass, silicon wafers are encased in protective polymers. A metal frame holds everything together, and a junction box routes the electricity out. When photons strike the silicon, they knock electrons loose. A built-in electric field, created by the p-n junction, pushes those electrons through wires as direct current.",
+          "image_query": "solar panel diagram"
+        },
+        {
+          "title": "Silicon: The Light-Sensitive Material",
+          "bullets": [
+            "Silicon is second most abundant element in Earth's crust",
+            "Pure silicon is a semiconductor, not a perfect conductor",
+            "Doping with phosphorus or boron creates n-type and p-type",
+            "Light knocks electrons loose, creating electron-hole pairs",
+            "Crystalline silicon dominates over 90% of solar panels"
+          ],
+          "notes": "Silicon sits just below oxygen in crustal abundance, making it cheap and plentiful. As a semiconductor, pure silicon barely conducts electricity. But doping it with phosphorus creates n-type silicon with extra electrons, while boron creates p-type with missing electrons. When sunlight hits the junction between them, electrons break free and flow. Silicon\u2019s bandgap of about 1.1 electron volts matches visible light well. Over 90% of panels use crystalline silicon.",
+          "image_query": "silicon wafer"
+        }
+      ]
+    },
+    {
+      "title": "How Photons Create Current",
+      "slides": [
+        {
+          "title": "Photons Knock Electrons Loose",
+          "bullets": [
+            "Photons from sunlight hit silicon atoms in panel",
+            "Photon energy transfers to electron, exciting it",
+            "Electron breaks free, leaving a hole",
+            "Silicon is doped to create p-type and n-type layers",
+            "Only photons above bandgap energy free electrons"
+          ],
+          "notes": "Sunlight arrives as packets of energy called photons. When a photon hits the silicon cell, it can transfer its energy to an electron. If the energy is large enough, the electron breaks free from its atom, leaving behind a vacancy called a hole. Pure silicon is not ideal, so manufacturers add dopants to create layers that help manage these freed charges. Not every photon works; low-energy photons pass through or create heat.",
+          "image_query": "photon silicon atom"
+        },
+        {
+          "title": "Electric Field Pushes Electrons",
+          "bullets": [
+            "P-n junction creates built-in electric field",
+            "Field separates freed electrons from holes",
+            "Electrons pushed toward n-type layer",
+            "Holes pushed toward p-type layer",
+            "This separation creates voltage across cell"
+          ],
+          "notes": "Once electrons and holes are freed, they would normally recombine. The p-n junction prevents that. Where p-type and n-type silicon meet, an electric field forms. This field acts like a slope, pushing freed electrons toward the n-type side and holes toward the p-type side. That charge separation builds a voltage across the cell. This voltage is what can drive current when a circuit is connected.",
+          "image_query": "p-n junction electric field"
+        },
+        {
+          "title": "DC Electricity Flows Out",
+          "bullets": [
+            "Electrons travel through external circuit as direct current",
+            "Metal contacts collect electrons from n-type layer",
+            "Current flows one direction, from negative to positive",
+            "Inverter later converts DC to AC for home use",
+            "Cell voltage about 0.5 to 0.6 volts per silicon cell"
+          ],
+          "notes": "With a voltage established, connecting the cell to an external circuit lets electrons flow. Metal contacts collect them from the n-type layer and send them through wires to do useful work, such as lighting a lamp. The flow is direct current, meaning it moves in one direction. A single silicon cell produces only about half a volt, so panels wire many cells in series. Later, an inverter can convert this DC into household AC.",
+          "image_query": "solar DC circuit"
+        }
+      ]
+    },
+    {
+      "title": "From Panel to Plug",
+      "slides": [
+        {
+          "title": "Inverter Turns DC into AC",
+          "bullets": [
+            "Solar panels make DC electricity, flowing one direction",
+            "Inverter converts DC into AC for home use",
+            "Inverters switch DC rapidly, creating 60 Hz AC",
+            "String inverters connect many panels to one unit",
+            "Microinverters sit behind each panel, optimizing output"
+          ],
+          "notes": "Solar panels generate direct current, where electrons flow in one direction. The inverter takes that DC and rapidly switches it to create alternating current, the type your wall outlets use. In the U.S., AC alternates 60 times per second, at 120/240 volts. String inverters handle many panels together, while microinverters convert at each panel. Modern inverters are about 96\u201398% efficient, so little energy is lost in conversion.",
+          "image_query": "solar inverter"
+        },
+        {
+          "title": "Powering Homes and Devices",
+          "bullets": [
+            "Breaker panel routes AC to outlets and appliances",
+            "Electricity powers lights, fridge, TV, EV charger",
+            "Surplus flows to grid, spinning meter backward",
+            "Battery stores excess for night, then inverter converts",
+            "Typical U.S. home uses about 30 kWh daily"
+          ],
+          "notes": "Once AC leaves the inverter, it enters your breaker panel and is distributed to circuits around the home. That electricity runs lights, refrigerators, computers, and EV chargers. Any surplus can flow back to the grid, often earning net-metering credits. With a battery, extra DC or AC can be stored for night use. An average U.S. home uses roughly 30 kilowatt-hours per day.",
+          "image_query": "home breaker panel"
+        }
+      ]
+    }
+  ]
+}

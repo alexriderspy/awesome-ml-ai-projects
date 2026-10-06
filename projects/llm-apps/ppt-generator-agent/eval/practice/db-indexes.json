@@ -1,0 +1,35 @@
+{
+ "id": "db-indexes",
+ "topic": "Database indexing basics",
+ "n_slides": 7,
+ "keywords": [
+  [
+   "b-tree",
+   "btree",
+   "b+ tree",
+   "b+tree"
+  ],
+  [
+   "query",
+   "queries"
+  ],
+  [
+   "full table scan",
+   "table scan",
+   "sequential scan"
+  ],
+  [
+   "write",
+   "insert"
+  ],
+  [
+   "composite",
+   "multi-column",
+   "multicolumn"
+  ],
+  [
+   "selectiv",
+   "cardinality"
+  ]
+ ]
+}

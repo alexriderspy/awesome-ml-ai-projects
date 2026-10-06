@@ -1,0 +1,68 @@
+{
+  "description": "trending packages with version, license and weekly downloads",
+  "schema": {
+    "type": "object",
+    "key": "name",
+    "required": [
+      "name"
+    ],
+    "properties": {
+      "name": {
+        "type": "string"
+      },
+      "version": {
+        "type": "string",
+        "description": "without a leading v"
+      },
+      "license": {
+        "type": "string"
+      },
+      "weekly_downloads": {
+        "type": "integer",
+        "description": "e.g. 18.2k -> 18200"
+      }
+    }
+  },
+  "start": "page1.html",
+  "pages": [
+    "page1.html"
+  ],
+  "records": [
+    {
+      "name": "tinyqueue-lite",
+      "version": "2.4.1",
+      "license": "MIT",
+      "weekly_downloads": 18200
+    },
+    {
+      "name": "hexkit",
+      "version": "0.9.0",
+      "license": "Apache-2.0",
+      "weekly_downloads": 3410
+    },
+    {
+      "name": "parse-ini-strict",
+      "version": "1.1.7",
+      "license": "BSD-3-Clause",
+      "weekly_downloads": 920
+    },
+    {
+      "name": "colorwheel",
+      "version": "4.0.0-beta.2",
+      "license": "MIT",
+      "weekly_downloads": 1050000
+    },
+    {
+      "name": "retry-later",
+      "version": "3.2.0",
+      "license": "ISC",
+      "weekly_downloads": 56700
+    },
+    {
+      "name": "mdtable",
+      "version": "0.3.4",
+      "license": "MPL-2.0",
+      "weekly_downloads": 2200
+    }
+  ]
+}

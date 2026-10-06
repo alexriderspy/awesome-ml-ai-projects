@@ -1,0 +1,19 @@
+bill-split           SOLVED  tests_pass=True   steps= 5  tokens=  6401  stopped=done
+birthday-countdown   SOLVED  tests_pass=True   steps= 5  tokens=  7605  stopped=done
+config-merge         SOLVED  tests_pass=True   steps= 5  tokens=  6245  stopped=done
+env-parser           SOLVED  tests_pass=True   steps= 5  tokens=  5485  stopped=done
+express-shipping     SOLVED  tests_pass=True   steps= 5  tokens=  5380  stopped=done
+leaderboard          SOLVED  tests_pass=True   steps= 5  tokens=  5337  stopped=done
+memoize-kwargs       SOLVED  tests_pass=True   steps= 5  tokens=  5892  stopped=done
+note-tags            SOLVED  tests_pass=True   steps= 5  tokens=  5090  stopped=done
+pagination           SOLVED  tests_pass=True   steps= 5  tokens=  5578  stopped=done
+parcel-weights       SOLVED  tests_pass=True   steps= 5  tokens=  8295  stopped=done
+safe-int             SOLVED  tests_pass=True   steps= 5  tokens=  5708  stopped=done
+semver               SOLVED  tests_pass=True   steps= 5  tokens=  6348  stopped=done
+slugify              SOLVED  tests_pass=True   steps= 5  tokens=  5393  stopped=done
+stats-summary        SOLVED  tests_pass=True   steps= 5  tokens=  5399  stopped=done
+tree-depth           SOLVED  tests_pass=True   steps= 5  tokens=  5807  stopped=done
+
+solved 15/15  avg steps 5.0  avg tokens 5998
+
+OVERALL 100.0/100

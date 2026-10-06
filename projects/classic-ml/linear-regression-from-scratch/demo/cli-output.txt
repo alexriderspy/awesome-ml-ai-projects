@@ -1,0 +1,5 @@
+model                intercept  coef                      test R2  test RMSE
+closed form           34,665.0  8,994.5                    0.9831    5,366.0
+gradient descent      34,665.0  8,994.5                    0.9831    5,366.0
+scikit-learn          34,665.0  8,994.5                    0.9831    5,366.0
+saved plots to demo/

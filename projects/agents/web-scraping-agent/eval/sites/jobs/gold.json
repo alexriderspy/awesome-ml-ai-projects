@@ -1,0 +1,113 @@
+{
+  "description": "every job posting: title, company, location, whether it is remote, the minimum yearly salary, and the date it was posted",
+  "schema": {
+    "type": "object",
+    "key": "title",
+    "required": [
+      "title",
+      "company"
+    ],
+    "properties": {
+      "title": {
+        "type": "string"
+      },
+      "company": {
+        "type": "string"
+      },
+      "location": {
+        "type": "string",
+        "description": "as written on the page"
+      },
+      "remote": {
+        "type": "boolean"
+      },
+      "salary_min": {
+        "type": "integer",
+        "description": "lower end of the salary range in dollars, e.g. 140000; null if not listed"
+      },
+      "posted": {
+        "type": "string",
+        "description": "YYYY-MM-DD"
+      }
+    }
+  },
+  "start": "page1.html",
+  "pages": [
+    "page1.html",
+    "page2.html"
+  ],
+  "records": [
+    {
+      "title": "Backend Engineer, Payments",
+      "company": "Lumen Ledger",
+      "location": "Austin, TX",
+      "remote": false,
+      "salary_min": 140000,
+      "posted": "2026-09-28"
+    },
+    {
+      "title": "Data Analyst",
+      "company": "Quarry Health",
+      "location": "Remote (US)",
+      "remote": true,
+      "salary_min": 85000,
+      "posted": "2026-09-27"
+    },
+    {
+      "title": "Junior Frontend Developer",
+      "company": "Tidepool Learning",
+      "location": "Portland, OR",
+      "remote": false,
+      "salary_min": 72000,
+      "posted": "2026-09-25"
+    },
+    {
+      "title": "Site Reliability Engineer",
+      "company": "Northgate Freight",
+      "location": "Remote (Canada)",
+      "remote": true,
+      "salary_min": 130000,
+      "posted": "2026-09-24"
+    },
+    {
+      "title": "Product Designer",
+      "company": "Saltmarsh Studio",
+      "location": "Brooklyn, NY",
+      "remote": false,
+      "salary_min": null,
+      "posted": "2026-09-22"
+    },
+    {
+      "title": "Machine Learning Engineer",
+      "company": "Quarry Health",
+      "location": "Remote (US)",
+      "remote": true,
+      "salary_min": 155000,
+      "posted": "2026-09-19"
+    },
+    {
+      "title": "QA Automation Engineer",
+      "company": "Brightwater Bank",
+      "location": "Charlotte, NC",
+      "remote": false,
+      "salary_min": 95000,
+      "posted": "2026-09-17"
+    },
+    {
+      "title": "Technical Writer",
+      "company": "Lumen Ledger",
+      "location": "Austin, TX",
+      "remote": false,
+      "salary_min": 78000,
+      "posted": "2026-09-15"
+    },
+    {
+      "title": "Mobile Developer (Android)",
+      "company": "Kettle & Co",
+      "location": "Remote (EU)",
+      "remote": true,
+      "salary_min": 90000,
+      "posted": "2026-09-12"
+    }
+  ]
+}

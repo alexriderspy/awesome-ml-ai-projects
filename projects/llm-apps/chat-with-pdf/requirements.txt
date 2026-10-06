@@ -1,0 +1,7 @@
+openai>=1.40
+pypdf>=4.0
+reportlab>=4.0   # only to rebuild the practice PDF
+streamlit>=1.35
+pytest>=7
+# optional, better retrieval for paraphrased questions (pulls in PyTorch):
+# sentence-transformers>=3.0

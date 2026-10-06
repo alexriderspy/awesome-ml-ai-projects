@@ -1,0 +1,21 @@
+{
+  "flask-api": {"file": "flask-api/requirements.txt", "findings": [
+    ["DD008", "requests"], ["DD004", "gunicorn"], ["DD002", "mock"], ["DD005", "python-dotenv"], ["DD006", "sqlalchemy"]]},
+  "data-pipeline": {"file": "data-pipeline/requirements.txt", "findings": [
+    ["DD002", "enum34"], ["DD002", "typing"], ["DD001", "uuid"], ["DD001", "json"], ["DD008", "urllib3"], ["DD006", "pyyaml"]]},
+  "tiny-lib": {"file": "tiny-lib/pyproject.toml", "findings": [
+    ["DD002", "dataclasses"], ["DD003", "six"], ["DD004", "pytest"], ["DD006", "pytest"], ["DD002", "mock"]]},
+  "poetry-app": {"file": "poetry-app/pyproject.toml", "findings": [
+    ["DD008", "pydantic"], ["DD002", "contextlib2"], ["DD004", "uvicorn"], ["DD008", "black"]]},
+  "clean-pinned": {"file": "clean-pinned/requirements.txt", "findings": []},
+  "py2-port": {"file": "py2-port/requirements.txt", "python": "3.12", "findings": [
+    ["DD003", "six"], ["DD003", "future"], ["DD002", "configparser"], ["DD002", "pathlib2"],
+    ["DD002", "backports-zoneinfo"], ["DD002", "importlib-resources"], ["DD002", "ipaddress"],
+    ["DD008", "django"], ["DD006", "django"]]},
+  "conflicts": {"file": "conflicts/requirements.txt", "findings": [
+    ["DD007", "cryptography"], ["DD008", "cryptography"], ["DD008", "attrs"],
+    ["DD007", "numpy"], ["DD001", "logging"]]},
+  "ml-research": {"file": "ml-research/pyproject.toml", "findings": [
+    ["DD002", "tomli"], ["DD008", "numpy"], ["DD009", "pandas"], ["DD004", "scikit-learn"],
+    ["DD002", "backports-cached-property"], ["DD001", "sqlite3"], ["DD004", "pytest-cov"], ["DD002", "unittest2"]]}
+}

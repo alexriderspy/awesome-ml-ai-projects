@@ -1,0 +1,18 @@
+job-analyst-intern             score=100.0  f1=1.00  valid=1  attempts=1
+job-backend-austin             score=100.0  f1=1.00  valid=1  attempts=1
+job-barista-wellington         score=100.0  f1=1.00  valid=1  attempts=1
+job-frontend-pune              score=100.0  f1=1.00  valid=1  attempts=1
+job-ml-contract                score= 96.8  f1=0.96  valid=1  attempts=1  missed: skills
+job-sre-manchester             score= 92.7  f1=0.91  valid=1  attempts=1  missed: skills
+receipt-cafe-leeds             score=100.0  f1=1.00  valid=1  attempts=1
+receipt-hardware-boise         score=100.0  f1=1.00  valid=1  attempts=1
+receipt-order-email            score=100.0  f1=1.00  valid=1  attempts=1
+receipt-pizza-sf               score=100.0  f1=1.00  valid=1  attempts=1
+receipt-restaurant-bengaluru   score=100.0  f1=1.00  valid=1  attempts=1
+receipt-supermarket-berlin     score=100.0  f1=1.00  valid=1  attempts=1
+
+model: deepseek-flash
+micro field F1: P=0.987 R=0.987 F1=0.987
+schema-valid rate: 1.00   valid on first try: 1.00
+confidence >= 0.8: accuracy 0.99 (159 fields)   confidence < 0.8: accuracy 0.89 (9 fields)
+OVERALL 99.1/100

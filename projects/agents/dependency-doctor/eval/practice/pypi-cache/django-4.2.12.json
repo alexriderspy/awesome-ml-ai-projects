@@ -1,0 +1,7 @@
+{
+ "name": "django",
+ "version": "4.2.12",
+ "missing": false,
+ "yanked": true,
+ "yanked_reason": "Release files have Windows end-of-line characters and are missing executable bits."
+}

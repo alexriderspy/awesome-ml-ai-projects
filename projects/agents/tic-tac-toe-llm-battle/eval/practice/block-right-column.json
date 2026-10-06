@@ -1,0 +1,7 @@
+{
+  "id": "block-right-column",
+  "board": "X.O..O.X.",
+  "kind": "block",
+  "answer": 9,
+  "note": "O has 3 and 6; X must take 9."
+}

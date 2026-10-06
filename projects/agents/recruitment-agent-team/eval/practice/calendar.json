@@ -1,0 +1,29 @@
+{
+  "timezone": "Europe/London",
+  "slot_minutes": 45,
+  "step_minutes": 15,
+  "interviewers": [
+    {"id": "iv-ana", "name": "Ana Ruiz", "panels": ["backend"],
+     "availability": [{"start": "2026-10-12T09:00", "end": "2026-10-12T12:00"},
+                      {"start": "2026-10-14T13:00", "end": "2026-10-14T16:00"}]},
+    {"id": "iv-ben", "name": "Ben Adeyemi", "panels": ["backend", "analytics"],
+     "availability": [{"start": "2026-10-12T14:00", "end": "2026-10-12T16:00"},
+                      {"start": "2026-10-13T09:00", "end": "2026-10-13T10:30"}]},
+    {"id": "iv-chen", "name": "Chen Wei", "panels": ["analytics"],
+     "availability": [{"start": "2026-10-13T10:00", "end": "2026-10-13T12:00"}]},
+    {"id": "iv-dee", "name": "Dee Fischer", "panels": ["support"],
+     "availability": [{"start": "2026-10-12T10:00", "end": "2026-10-12T11:30"},
+                      {"start": "2026-10-13T15:00", "end": "2026-10-13T18:00"}]},
+    {"id": "iv-eli", "name": "Eli Haddad", "panels": ["support", "backend"],
+     "availability": [{"start": "2026-10-14T09:00", "end": "2026-10-14T10:00"}]}
+  ],
+  "bookings": [
+    {"interviewer": "iv-ana", "candidate": "external-1", "start": "2026-10-12T09:30", "end": "2026-10-12T10:15"},
+    {"interviewer": "iv-ana", "candidate": "external-2", "start": "2026-10-12T10:45", "end": "2026-10-12T11:30"},
+    {"interviewer": "iv-ana", "candidate": "external-3", "start": "2026-10-14T13:00", "end": "2026-10-14T15:00"},
+    {"interviewer": "iv-ben", "candidate": "external-4", "start": "2026-10-12T14:00", "end": "2026-10-12T15:30"},
+    {"interviewer": "iv-chen", "candidate": "external-5", "start": "2026-10-13T10:30", "end": "2026-10-13T11:15"},
+    {"interviewer": "iv-dee", "candidate": "external-6", "start": "2026-10-12T10:00", "end": "2026-10-12T11:30"},
+    {"interviewer": "iv-dee", "candidate": "external-7", "start": "2026-10-13T15:30", "end": "2026-10-13T16:15"}
+  ]
+}

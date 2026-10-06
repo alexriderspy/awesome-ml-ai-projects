@@ -1,0 +1,24 @@
+{
+ "id": "job-frontend-pune",
+ "schema": "job_post",
+ "text": "Urgent opening!! Frontend Developer (React) at Kitebird Technologies Pvt Ltd, Pune.\nWork from office, Mon-Fri, Full time.\nExp: 2-4 yrs.  CTC 8-12 LPA.\nMust know React, TypeScript, Redux, CSS. Immediate joiners preferred.\nSend CV to careers@kitebird.example",
+ "gold": {
+  "title": "Frontend Developer",
+  "company": "Kitebird Technologies Pvt Ltd",
+  "location": "Pune",
+  "work_mode": "onsite",
+  "employment_type": "full-time",
+  "salary_min": 800000,
+  "salary_max": 1200000,
+  "salary_currency": "INR",
+  "salary_period": "year",
+  "min_years_experience": 2,
+  "skills": [
+   "React",
+   "TypeScript",
+   "Redux",
+   "CSS"
+  ],
+  "apply_by": null
+ }
+}

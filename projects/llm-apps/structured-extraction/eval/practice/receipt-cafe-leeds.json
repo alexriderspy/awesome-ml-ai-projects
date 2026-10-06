@@ -1,0 +1,34 @@
+{
+ "id": "receipt-cafe-leeds",
+ "schema": "receipt",
+ "text": "  BEAN THERE CAFE\n 14 Mill Lane, Leeds\n TEL 0113 555 0192\n------------------------\n 03/11/2025      08:42\n Tbl 4   Srv: KAT\n 2 x Flat White  @3.40   6.80\n 1 x Almond Croissant    3.25\n 1 x Oat milk extra      0.45\n------------------------\n SUBTOTAL               10.50\n VAT incl. 20%           1.75\n TOTAL GBP              10.50\n CARD  ************4471 10.50\n Thank you! come again :)",
+ "gold": {
+  "merchant": "Bean There Cafe",
+  "date": "2025-11-03",
+  "currency": "GBP",
+  "items": [
+   {
+    "name": "Flat White",
+    "quantity": 2,
+    "total": 6.8
+   },
+   {
+    "name": "Almond Croissant",
+    "quantity": 1,
+    "total": 3.25
+   },
+   {
+    "name": "Oat milk extra",
+    "quantity": 1,
+    "total": 0.45
+   }
+  ],
+  "subtotal": 10.5,
+  "discount": null,
+  "tax": 1.75,
+  "tax_included": true,
+  "tip": null,
+  "total": 10.5,
+  "payment_method": "card"
+ }
+}

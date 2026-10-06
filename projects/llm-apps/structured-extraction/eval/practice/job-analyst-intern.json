@@ -1,0 +1,23 @@
+{
+ "id": "job-analyst-intern",
+ "schema": "job_post",
+ "text": "hey folks 👋 we (Tidewater Analytics) are hiring a data analyst intern for the summer!\nfully remote, 12 weeks, $28/hr. need SQL + python (pandas). students welcome, no experience needed.\nDM me or apply before april 30 2026 🙏",
+ "gold": {
+  "title": "Data Analyst Intern",
+  "company": "Tidewater Analytics",
+  "location": null,
+  "work_mode": "remote",
+  "employment_type": "internship",
+  "salary_min": 28,
+  "salary_max": 28,
+  "salary_currency": "USD",
+  "salary_period": "hour",
+  "min_years_experience": 0,
+  "skills": [
+   "SQL",
+   "Python",
+   "pandas"
+  ],
+  "apply_by": "2026-04-30"
+ }
+}

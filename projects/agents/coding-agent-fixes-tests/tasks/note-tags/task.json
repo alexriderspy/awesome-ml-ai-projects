@@ -1,0 +1,3 @@
+{
+  "issue": "Tags leak between notes: tagging one Note makes the tag show up on other notes created without tags. Also, the list passed in as tags should not be changed by tagging."
+}

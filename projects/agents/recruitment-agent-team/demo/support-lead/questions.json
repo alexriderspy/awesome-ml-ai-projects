@@ -1,0 +1,134 @@
+{
+  "sl-04": [
+    {
+      "type": "gap",
+      "requirement": "N3",
+      "anchor": "",
+      "anchor_dropped": false,
+      "question": "Your resume shows you ran the hiring loop for support specialists. Can you walk me through how you onboarded new support agents after they were hired\u2014what the first 30 days looked like, and how you measured whether they were ready to handle tickets independently?"
+    },
+    {
+      "type": "gap",
+      "requirement": "M3",
+      "anchor": "",
+      "anchor_dropped": false,
+      "question": "You own a weekly support metrics report covering CSAT, first response time, and full resolution time. Can you describe a specific change you made based on that report that improved one of those metrics, and what the before-and-after numbers were?"
+    },
+    {
+      "type": "gap",
+      "requirement": "N1",
+      "anchor": "",
+      "anchor_dropped": false,
+      "question": "You've supported B2B SaaS for accounting firms. What was technically complex about those customers' support needs, and how did you adjust your team's support process for B2B SaaS contexts?"
+    },
+    {
+      "type": "claim",
+      "requirement": "M2",
+      "anchor": "Manage 6 support specialists handling 2,500 Freshdesk tickets a month for accounting firms.",
+      "anchor_dropped": false,
+      "question": "You manage 6 specialists and 2,500 Freshdesk tickets a month. How have you configured Freshdesk\u2014views, routing rules, SLAs, automations\u2014to keep that volume manageable, and what trade-offs did you make?"
+    },
+    {
+      "type": "claim",
+      "requirement": "M3",
+      "anchor": "Reduced full resolution time by 35% by adding ticket routing by product area.",
+      "anchor_dropped": false,
+      "question": "You reduced full resolution time by 35% by adding ticket routing by product area. How did you define the baseline and measure that 35%, and were there any negative effects on CSAT or first response time?"
+    },
+    {
+      "type": "claim",
+      "requirement": "M4",
+      "anchor": "Wrote a style guide for the knowledge base and personally published 30 articles.",
+      "anchor_dropped": false,
+      "question": "You wrote a knowledge-base style guide and published 30 articles. How did you prioritize which articles to write, and what evidence showed they reduced ticket volume or improved self-service?"
+    }
+  ],
+  "sl-01": [
+    {
+      "type": "gap",
+      "requirement": "N2",
+      "anchor": "",
+      "anchor_dropped": false,
+      "question": "This role needs spreadsheet or SQL analysis of ticket data, but your resume doesn't show it. How have you used spreadsheets or SQL to analyze support ticket data\u2014what questions did you answer, what data did you query, and what changed as a result?"
+    },
+    {
+      "type": "claim",
+      "requirement": "M1",
+      "anchor": "Lead a team of 9 agents across email and chat in Zendesk.",
+      "anchor_dropped": false,
+      "question": "You lead a team of 9 agents across email and chat in Zendesk. How do you structure coaching, QA, and performance management for a team that size, and what metrics do you use to know each agent is improving?"
+    },
+    {
+      "type": "claim",
+      "requirement": "M3",
+      "anchor": "Raised CSAT from 86% to 94% in a year by adding macros, a weekly QA review and coaching sessions.",
+      "anchor_dropped": false,
+      "question": "You raised CSAT from 86% to 94% in a year by adding macros, a weekly QA review and coaching sessions. Which of those changes drove the biggest lift, and how did you isolate the impact of each while avoiding metric gaming?"
+    },
+    {
+      "type": "claim",
+      "requirement": "M2",
+      "anchor": "Cut median first response time from 9 hours to 2 hours with Zendesk triggers and a follow-the-sun rota.",
+      "anchor_dropped": false,
+      "question": "You cut median first response time from 9 hours to 2 hours with Zendesk triggers and a follow-the-sun rota. What specific triggers and handoff rules did you implement, and how did you maintain quality or avoid pushing work to later queues?"
+    },
+    {
+      "type": "claim",
+      "requirement": "N1",
+      "anchor": "Support lead at a project-management SaaS.",
+      "anchor_dropped": false,
+      "question": "You were a support lead at a project-management SaaS. What B2B SaaS support challenges did you handle\u2014such as complex integrations, admin/security questions, or multi-seat accounts\u2014and how did your approach differ from consumer support?"
+    },
+    {
+      "type": "claim",
+      "requirement": "N3",
+      "anchor": "Hired and onboarded 5 agents with a two-week shadowing plan.",
+      "anchor_dropped": false,
+      "question": "You hired and onboarded 5 agents with a two-week shadowing plan. How did you assess candidates for B2B SaaS support, and what parts of the onboarding plan ensured they could handle tickets independently by week three?"
+    }
+  ],
+  "sl-06": [
+    {
+      "type": "gap",
+      "requirement": "N2",
+      "anchor": "",
+      "anchor_dropped": false,
+      "question": "This role requires analyzing ticket data in spreadsheets or SQL. Walk me through a time you used Excel, Google Sheets, or SQL to analyze support data. What did you analyze, what formulas or queries did you use, and what decision came from it?"
+    },
+    {
+      "type": "gap",
+      "requirement": "N1",
+      "anchor": "",
+      "anchor_dropped": false,
+      "question": "Your background is in hosting and mobile support. What experience do you have supporting B2B SaaS customers specifically? Describe the products, customer types, and any SaaS-specific metrics or workflows you handled."
+    },
+    {
+      "type": "gap",
+      "requirement": "N3",
+      "anchor": "",
+      "anchor_dropped": false,
+      "question": "Describe your experience hiring and onboarding new support agents. What was your involvement in interviewing, selecting, and ramping them? Include how many hires and how you measured onboarding success."
+    },
+    {
+      "type": "gap",
+      "requirement": "M2",
+      "anchor": "",
+      "anchor_dropped": false,
+      "question": "You mention Zendesk in your resume. What hands-on configuration or reporting have you done in Zendesk? For example, views, macros, triggers, automations, SLA policies, or dashboards. How did you use them to improve team performance?"
+    },
+    {
+      "type": "claim",
+      "requirement": "M3",
+      "anchor": "Track CSAT, first response time and average handle time daily; brought first response time under 1 hour for 11 straight months.",
+      "anchor_dropped": false,
+      "question": "You brought first response time under 1 hour for 11 straight months. What specific changes did you make to achieve that, and what trade-offs did you see with CSAT, resolution time, or agent workload? How did you track and report the metric?"
+    },
+    {
+      "type": "claim",
+      "requirement": "M4",
+      "anchor": "Write and update FAQ and help-center articles after every product release.",
+      "anchor_dropped": false,
+      "question": "You write and update help-center articles after every product release. How do you decide what to write or update, and how do you measure whether those articles reduce ticket volume or improve CSAT? Give an example with numbers if possible."
+    }
+  ]
+}

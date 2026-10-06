@@ -1,0 +1,93 @@
+{
+  "description": "every published post in the index: title, author, publish date, read time in minutes, and link",
+  "schema": {
+    "type": "object",
+    "key": "title",
+    "required": [
+      "title"
+    ],
+    "properties": {
+      "title": {
+        "type": "string"
+      },
+      "author": {
+        "type": "string",
+        "description": "author name in normal capitalisation"
+      },
+      "date": {
+        "type": "string",
+        "description": "YYYY-MM-DD"
+      },
+      "read_minutes": {
+        "type": "integer"
+      },
+      "url": {
+        "type": "string",
+        "description": "absolute link to the post"
+      }
+    }
+  },
+  "start": "page1.html",
+  "pages": [
+    "page1.html",
+    "page2.html"
+  ],
+  "records": [
+    {
+      "title": "Why my dovetails kept gapping",
+      "author": "Ines Okafor",
+      "date": "2026-09-30",
+      "read_minutes": 7,
+      "url": "/posts/dovetail-gaps.html"
+    },
+    {
+      "title": "Sharpening on a budget: three stones are enough",
+      "author": "Marcus Lindqvist",
+      "date": "2026-09-26",
+      "read_minutes": 11,
+      "url": "/posts/budget-sharpening.html"
+    },
+    {
+      "title": "A shop-made marking gauge in one evening",
+      "author": "Ines Okafor",
+      "date": "2026-09-21",
+      "read_minutes": 5,
+      "url": "/posts/marking-gauge.html"
+    },
+    {
+      "title": "Glue-up panic, and how to avoid it",
+      "author": "Priya Raman",
+      "date": "2026-09-17",
+      "read_minutes": 9,
+      "url": "/posts/glue-up-panic.html"
+    },
+    {
+      "title": "Finishing with shellac: a slow guide",
+      "author": "Marcus Lindqvist",
+      "date": "2026-09-12",
+      "read_minutes": 14,
+      "url": "/posts/shellac-guide.html"
+    },
+    {
+      "title": "Reading grain before you plane",
+      "author": "Priya Raman",
+      "date": "2026-09-05",
+      "read_minutes": 6,
+      "url": "/posts/reading-grain.html"
+    },
+    {
+      "title": "The bench I built twice",
+      "author": "Ines Okafor",
+      "date": "2026-08-29",
+      "read_minutes": 12,
+      "url": "/posts/bench-built-twice.html"
+    },
+    {
+      "title": "Dust collection for a one-car garage",
+      "author": "Theo Brandt",
+      "date": "2026-08-22",
+      "read_minutes": 8,
+      "url": "/posts/garage-dust.html"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+cryptography==38.0.2
+cryptography>=41
+attrs==21.1.0
+numpy>=1.24
+numpy<1.20
+logging
+pillow==10.3.0

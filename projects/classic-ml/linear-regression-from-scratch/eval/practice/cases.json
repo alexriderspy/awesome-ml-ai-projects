@@ -1,0 +1,7 @@
+[
+  {"id": "default",      "n": 200, "noise": 6000,  "seed": 0, "multi": false},
+  {"id": "small-n",      "n": 25,  "noise": 6000,  "seed": 1, "multi": false},
+  {"id": "noisy",        "n": 300, "noise": 20000, "seed": 2, "multi": false},
+  {"id": "two-features", "n": 400, "noise": 8000,  "seed": 3, "multi": true},
+  {"id": "large-n",      "n": 5000,"noise": 10000, "seed": 4, "multi": true}
+]

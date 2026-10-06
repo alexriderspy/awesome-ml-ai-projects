@@ -1,0 +1,26 @@
+{
+ "id": "job-sre-manchester",
+ "schema": "job_post",
+ "text": "Role: Platform Engineer (SRE)\nCompany — Fernhill Health\nWhere: Manchester, UK · hybrid (2 days/wk)\nContract type: permanent, full time\nSalary £5,500–£6,250 per month\nWhat you'll need:\n * 3+ yrs running production Linux systems\n * Terraform, AWS, Prometheus, Python or Go\nClosing date: 31/01/2026",
+ "gold": {
+  "title": "Platform Engineer (SRE)",
+  "company": "Fernhill Health",
+  "location": "Manchester, UK",
+  "work_mode": "hybrid",
+  "employment_type": "full-time",
+  "salary_min": 5500,
+  "salary_max": 6250,
+  "salary_currency": "GBP",
+  "salary_period": "month",
+  "min_years_experience": 3,
+  "skills": [
+   "Linux",
+   "Terraform",
+   "AWS",
+   "Prometheus",
+   "Python",
+   "Go"
+  ],
+  "apply_by": "2026-01-31"
+ }
+}

@@ -1,0 +1,7 @@
+{
+ "name": "black",
+ "version": "21.11b0",
+ "missing": false,
+ "yanked": true,
+ "yanked_reason": "Broken regex dependency. Use 21.11b1 instead."
+}

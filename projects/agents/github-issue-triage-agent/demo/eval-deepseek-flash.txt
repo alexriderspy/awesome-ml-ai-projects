@@ -1,0 +1,34 @@
+#36  labels ok   feature,good-first-issue     gold feature,good-first-issue     dup ok   -    gold -    reply=1.00 steps=6  tokens=12991
+#37  labels ok   bug                          gold bug                          dup ok   #8   gold #8   reply=1.00 steps=6  tokens=11397
+#38  labels ok   bug                          gold bug                          dup ok   -    gold -    reply=1.00 steps=6  tokens=12795
+#39  labels ok   bug                          gold bug                          dup ok   -    gold -    reply=1.00 steps=7  tokens=18223
+#40  labels ok   bug                          gold bug                          dup ok   #14  gold #14  reply=1.00 steps=6  tokens=12775
+#41  labels ok   bug                          gold bug                          dup ok   -    gold -    reply=1.00 steps=5  tokens=10469
+#42  labels ok   feature                      gold feature                      dup ok   #21  gold #21  reply=1.00 steps=7  tokens=14475
+#43  labels ok   question                     gold question                     dup ok   -    gold -    reply=1.00 steps=6  tokens=12851
+#44  labels ok   bug                          gold bug                          dup ok   #3   gold #3   reply=1.00 steps=6  tokens=12655
+#45  labels ok   feature                      gold feature                      dup ok   -    gold -    reply=1.00 steps=5  tokens=9846
+#46  labels ok   bug                          gold bug                          dup ok   #39  gold #39  reply=1.00 steps=6  tokens=13074
+#47  labels ok   docs,good-first-issue        gold docs,good-first-issue        dup ok   -    gold -    reply=1.00 steps=6  tokens=11803
+#48  labels ok   bug,performance              gold bug,performance              dup ok   #27  gold #27  reply=1.00 steps=7  tokens=14870
+#49  labels ok   bug,needs-repro              gold bug,needs-repro              dup ok   -    gold -    reply=1.00 steps=6  tokens=13281
+#50  labels ok   question                     gold question                     dup ok   #11  gold #11  reply=1.00 steps=6  tokens=13034
+#51  labels ok   feature                      gold feature                      dup ok   -    gold -    reply=1.00 steps=5  tokens=9139
+#52  labels ok   bug                          gold bug                          dup ok   #17  gold #17  reply=1.00 steps=6  tokens=12027
+#53  labels ok   bug                          gold bug                          dup ok   -    gold -    reply=1.00 steps=7  tokens=20160
+#54  labels ok   feature                      gold feature                      dup ok   #45  gold #45  reply=1.00 steps=6  tokens=12120
+#55  labels ok   question                     gold question                     dup ok   -    gold -    reply=1.00 steps=6  tokens=14244
+#56  labels ok   bug                          gold bug                          dup ok   #30  gold #30  reply=1.00 steps=6  tokens=12670
+#57  labels ok   feature,performance          gold feature,performance          dup ok   -    gold -    reply=1.00 steps=6  tokens=11769
+#58  labels ok   docs,good-first-issue        gold docs,good-first-issue        dup ok   #5   gold #5   reply=1.00 steps=6  tokens=12346
+#59  labels MISS bug,good-first-issue         gold bug                          dup ok   -    gold -    reply=1.00 steps=8  tokens=25670
+#60  labels ok   bug                          gold bug                          dup ok   #24  gold #24  reply=1.00 steps=6  tokens=12663
+
+issues           25
+labels           micro-P=0.969 micro-R=1.000 micro-F1=0.984 exact-match=0.960
+duplicates       P=1.000 R=1.000 F1=1.000 (predicted 12, gold 12)
+replies          drafted=1.000 checks=1.000
+cost per issue   prompt=12711 completion=783 tokens  $0.00389 (at $0.28/M in, $0.42/M out)
+score parts      labels=0.984x0.4  duplicates=1.000x0.3  replies=1.000x0.2  efficiency=1.000x0.1
+
+OVERALL 99.4/100

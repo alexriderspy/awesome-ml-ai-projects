@@ -1,0 +1,94 @@
+{
+ "id": "noise-cancelling",
+ "topic": "How active noise-cancelling headphones work",
+ "word_budget": 450,
+ "facts": [
+  {
+   "fact": "microphones pick up outside noise",
+   "keywords": [
+    [
+     "microphone",
+     "microphones",
+     "mics"
+    ]
+   ]
+  },
+  {
+   "fact": "speaker plays an inverted (anti-phase) wave so the two cancel",
+   "keywords": [
+    [
+     "inverted",
+     "opposite phase",
+     "anti-phase",
+     "antiphase",
+     "180"
+    ]
+   ]
+  },
+  {
+   "fact": "works best on steady low-frequency sound like engine hum",
+   "keywords": [
+    [
+     "low-frequency",
+     "low frequency",
+     "low frequencies",
+     "low-frequencies"
+    ]
+   ]
+  },
+  {
+   "fact": "feedforward and feedback microphones; hybrid uses both",
+   "keywords": [
+    [
+     "feedforward",
+     "feed-forward"
+    ],
+    [
+     "feedback"
+    ]
+   ]
+  },
+  {
+   "fact": "transparency mode passes outside sound through",
+   "keywords": [
+    [
+     "transparency",
+     "ambient mode",
+     "hear-through"
+    ]
+   ]
+  }
+ ],
+ "search_results": [
+  {
+   "title": "Active noise cancelling explained",
+   "url": "https://audio-lab.example.org/anc/how-it-works",
+   "snippet": "Active noise cancelling (ANC) uses small microphones on the ear cups to measure incoming noise. A chip computes a copy of that sound wave with its phase inverted, and the driver plays it so the peaks of one wave line up with the troughs of the other and they cancel."
+  },
+  {
+   "title": "Why ANC is great on planes but weak on voices",
+   "url": "https://audio-lab.example.org/anc/frequencies",
+   "snippet": "Cancellation works best on steady, low-frequency noise such as engine hum or air conditioning, because those waves are long and predictable. Higher-frequency, sudden sounds like voices or clattering are harder to predict in time, so the ear cups' passive padding does more of that work."
+  },
+  {
+   "title": "Feedforward, feedback and hybrid ANC",
+   "url": "https://headphone-guide.example.com/anc-types",
+   "snippet": "Feedforward designs put the microphone outside the ear cup and react to noise before it arrives. Feedback designs put it inside, near the ear, and correct whatever leaks through. Hybrid ANC uses both microphones for wider cancellation."
+  },
+  {
+   "title": "What transparency mode does",
+   "url": "https://headphone-guide.example.com/transparency-mode",
+   "snippet": "Transparency or ambient mode does the opposite of cancelling: it plays the outside microphones' sound into your ears so you can hear announcements or traffic without taking the headphones off."
+  },
+  {
+   "title": "That pressure feeling",
+   "url": "https://audio-lab.example.org/anc/pressure",
+   "snippet": "Some people feel a slight pressure or 'eardrum suck' with strong ANC. It comes from the sudden loss of low-frequency background sound, not from a real change in air pressure. Many headphones let you lower the ANC strength."
+  },
+  {
+   "title": "ANC and battery life",
+   "url": "https://headphone-guide.example.com/battery",
+   "snippet": "Because the processing and microphones need power, turning ANC on usually shortens battery life by a few hours compared with listening with it off."
+  }
+ ]
+}

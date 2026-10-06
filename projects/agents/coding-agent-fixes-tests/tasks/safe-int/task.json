@@ -1,0 +1,3 @@
+{
+  "issue": "safe_int('abc') raises ValueError instead of returning the default. It should never raise for bad input. Surrounding spaces are fine; floats like '3.5' are not whole numbers."
+}

@@ -1,0 +1,9 @@
+MAE in °C on 2024 (scored model: gbm)
+London     score= 14.5  persistence=1.86  ridge=1.64  gbm=1.59
+New York   score= 15.2  persistence=2.94  ridge=2.58  gbm=2.49
+Delhi      score=  1.4  persistence=1.01  ridge=1.01  gbm=1.00
+Bengaluru  score=  5.8  persistence=0.90  ridge=0.86  gbm=0.85
+Tokyo      score= 15.7  persistence=2.28  ridge=2.08  gbm=1.92
+Sydney     score= 22.4  persistence=2.53  ridge=2.06  gbm=1.96
+
+OVERALL 12.5/100  (mean % MAE reduction vs persistence)

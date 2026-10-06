@@ -1,0 +1,137 @@
+{
+ "id": "vector-dbs",
+ "title": "What a vector database actually does",
+ "segments": [
+  {
+   "start": 0.0,
+   "text": "Hey everyone, today we're looking at vector databases and why every AI app seems to need one."
+  },
+  {
+   "start": 14.0,
+   "text": "Let's start with embeddings. An embedding model turns a piece of text into a list of numbers, a vector."
+  },
+  {
+   "start": 28.0,
+   "text": "Texts with similar meaning end up with vectors that point in similar directions."
+  },
+  {
+   "start": 42.0,
+   "text": "So 'cheap flights to Paris' and 'budget airfare to France' land close together even with no shared words."
+  },
+  {
+   "start": 56.0,
+   "text": "To compare two vectors we usually use cosine similarity, which looks at the angle between them."
+  },
+  {
+   "start": 70.0,
+   "text": "Now the problem. If you have ten million vectors, comparing the query to every single one is slow."
+  },
+  {
+   "start": 84.0,
+   "text": "That brute-force approach is called exact nearest neighbour search, and it scales linearly."
+  },
+  {
+   "start": 98.0,
+   "text": "Vector databases use approximate nearest neighbour indexes instead."
+  },
+  {
+   "start": 112.0,
+   "text": "The most popular one today is HNSW, a graph where you hop between neighbours to reach the closest points."
+  },
+  {
+   "start": 126.0,
+   "text": "You trade a tiny bit of recall for searches that are hundreds of times faster."
+  },
+  {
+   "start": 140.0,
+   "text": "Another option is IVF, which clusters vectors into buckets and only searches the nearest buckets."
+  },
+  {
+   "start": 154.0,
+   "text": "In practice you also store metadata next to each vector, like the source document and date."
+  },
+  {
+   "start": 168.0,
+   "text": "That lets you filter, for example only search documents from this year."
+  },
+  {
+   "start": 182.0,
+   "text": "Here's a mistake I see a lot: people embed whole PDFs as one vector."
+  },
+  {
+   "start": 196.0,
+   "text": "Long chunks blur the meaning, so retrieval gets worse. Split documents into chunks of a few hundred tokens."
+  },
+  {
+   "start": 210.0,
+   "text": "Also keep some overlap between chunks so sentences on the boundary aren't lost."
+  },
+  {
+   "start": 224.0,
+   "text": "Do you always need a dedicated vector database? Not really."
+  },
+  {
+   "start": 238.0,
+   "text": "If you already run Postgres, the pgvector extension handles a few million vectors fine."
+  },
+  {
+   "start": 252.0,
+   "text": "Reach for a dedicated database when you need huge scale or very low latency."
+  },
+  {
+   "start": 266.0,
+   "text": "To recap: embeddings capture meaning, approximate indexes make search fast, and chunking matters a lot."
+  },
+  {
+   "start": 280.0,
+   "text": "Thanks for watching, see you in the next one."
+  }
+ ],
+ "facts": [
+  {
+   "fact": "Embeddings turn text into vectors",
+   "keywords": [
+    [
+     "embedding"
+    ],
+    [
+     "vector"
+    ]
+   ]
+  },
+  {
+   "fact": "Cosine similarity compares vectors",
+   "keywords": [
+    [
+     "cosine"
+    ]
+   ]
+  },
+  {
+   "fact": "Approximate nearest neighbour indexes (HNSW) speed up search",
+   "keywords": [
+    [
+     "hnsw",
+     "approximate"
+    ]
+   ]
+  },
+  {
+   "fact": "Chunk documents instead of embedding whole PDFs",
+   "keywords": [
+    [
+     "chunk"
+    ]
+   ]
+  },
+  {
+   "fact": "pgvector in Postgres can be enough",
+   "keywords": [
+    [
+     "pgvector",
+     "postgres"
+    ]
+   ]
+  }
+ ]
+}

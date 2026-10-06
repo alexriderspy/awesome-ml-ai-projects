@@ -1,0 +1,16 @@
+name: Marco
+about: Backend developer who ships Node services on Postgres and cares about tooling.
+interests:
+  - name: javascript runtimes
+    weight: 3
+    keywords: [node, node.js, deno, bun, javascript, typescript, npm]
+  - name: databases
+    weight: 3
+    keywords: [postgres, sqlite, database, sql, mysql]
+  - name: languages and tooling
+    weight: 2
+    keywords: [programming language, compiler, lisp, haskell, rust, testing, gtk]
+  - name: infrastructure and apis
+    weight: 2
+    keywords: [api, kubernetes, cloudflare, web performance, vm]
+dislikes: [ai, llm, chatgpt, crypto, nft]

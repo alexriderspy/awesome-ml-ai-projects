@@ -1,0 +1,39 @@
+{
+ "id": "receipt-restaurant-bengaluru",
+ "schema": "receipt",
+ "text": "SPICE ROUTE KITCHEN\nKoramangala 5th Block, Bengaluru\nGSTIN 29ABCDE1234F1Z5\nBill No: 4471   Dt: 22-08-2025  21:05\n--------------------------------------\nPaneer Tikka        1    320.00\nDal Makhani         1    280.00\nButter Naan         4    240.00\nMasala Chaas        2    120.00\n--------------------------------------\nSub Total                 960.00\nCGST 2.5%                  24.00\nSGST 2.5%                  24.00\nGrand Total          Rs. 1008.00\nPaid via UPI",
+ "gold": {
+  "merchant": "Spice Route Kitchen",
+  "date": "2025-08-22",
+  "currency": "INR",
+  "items": [
+   {
+    "name": "Paneer Tikka",
+    "quantity": 1,
+    "total": 320.0
+   },
+   {
+    "name": "Dal Makhani",
+    "quantity": 1,
+    "total": 280.0
+   },
+   {
+    "name": "Butter Naan",
+    "quantity": 4,
+    "total": 240.0
+   },
+   {
+    "name": "Masala Chaas",
+    "quantity": 2,
+    "total": 120.0
+   }
+  ],
+  "subtotal": 960.0,
+  "discount": null,
+  "tax": 48.0,
+  "tax_included": false,
+  "tip": null,
+  "total": 1008.0,
+  "payment_method": "mobile"
+ }
+}

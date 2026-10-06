@@ -1,0 +1,3 @@
+{
+  "issue": "The memoize decorator returns stale results when a function is called with keyword arguments: power(2, exp=3) followed by power(2, exp=5) returns 8 both times."
+}

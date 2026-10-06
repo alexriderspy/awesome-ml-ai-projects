@@ -1,0 +1,7 @@
+{
+  "id": "o-wins-diagonal",
+  "board": "XXO.O..X.",
+  "kind": "win",
+  "answer": 7,
+  "note": "O has 3 and 5; 7 completes the anti-diagonal."
+}

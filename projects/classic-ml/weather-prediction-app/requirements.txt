@@ -1,0 +1,6 @@
+requests>=2.31
+pandas>=2.0
+scikit-learn>=1.4
+altair>=5
+streamlit>=1.35
+pytest>=7

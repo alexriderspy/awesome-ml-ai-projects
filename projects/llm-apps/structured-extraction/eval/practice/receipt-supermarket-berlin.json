@@ -1,0 +1,39 @@
+{
+ "id": "receipt-supermarket-berlin",
+ "schema": "receipt",
+ "text": "FRISCHMARKT Berlin-Mitte\nTorstr. 118, 10119 Berlin\n                         EUR\nBio Bananen             1,89 B\nVollkornbrot            2,49 B\nHafermilch 1L\n  2 x 1,29              2,58 B\nSpuelmittel             1,95 A\n-----------------------------\nSUMME     EUR           8,91\nGegeben BAR            20,00\nRueckgeld              11,09\nMwSt A 19%  netto 1,64  MwSt 0,31\nMwSt B  7%  netto 6,50  MwSt 0,46\n14.02.2026  18:44  Bon 0817",
+ "gold": {
+  "merchant": "Frischmarkt",
+  "date": "2026-02-14",
+  "currency": "EUR",
+  "items": [
+   {
+    "name": "Bio Bananen",
+    "quantity": 1,
+    "total": 1.89
+   },
+   {
+    "name": "Vollkornbrot",
+    "quantity": 1,
+    "total": 2.49
+   },
+   {
+    "name": "Hafermilch 1L",
+    "quantity": 2,
+    "total": 2.58
+   },
+   {
+    "name": "Spuelmittel",
+    "quantity": 1,
+    "total": 1.95
+   }
+  ],
+  "subtotal": 8.91,
+  "discount": null,
+  "tax": 0.77,
+  "tax_included": true,
+  "tip": null,
+  "total": 8.91,
+  "payment_method": "cash"
+ }
+}

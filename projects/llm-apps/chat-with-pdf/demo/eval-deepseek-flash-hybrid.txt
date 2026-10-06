@@ -1,0 +1,21 @@
+score=100.0  acc=1  cite=1.00  pages=[1]  Who founded the observatory, and in what year?
+score=100.0  acc=1  cite=1.00  pages=[1]  How high above sea level is the dome?
+score=100.0  acc=1  cite=1.00  pages=[2]  What is the aperture of the main telescope?
+score=100.0  acc=1  cite=1.00  pages=[2]  What filter does the solar telescope use?
+score=100.0  acc=1  cite=1.00  pages=[2]  How far in advance must Lantern be booked?
+score=100.0  acc=1  cite=1.00  pages=[3]  How much does a student membership cost per year?
+score=100.0  acc=1  cite=1.00  pages=[3]  What happens if a member hasn't paid their fee by 1 March?
+score=100.0  acc=1  cite=1.00  pages=[4]  When are public observing nights held?
+score=100.0  acc=1  cite=1.00  pages=[4]  How many supervised sessions does it take to become a dome keeper?
+score=100.0  acc=1  cite=1.00  pages=[5]  At what wind speed must the dome be closed?
+score=100.0  acc=1  cite=1.00  pages=[6]  How long are raw image files kept on the observatory computer?
+score=100.0  acc=1  cite=1.00  pages=[6]  What did calendar sales pay for in 2024?
+score=100.0  acc=1  cite=1.00  pages=[5]  Which telescope may be pointed at the Sun, and who has to check it first?
+score=100.0  acc=1  cite=1.00  pages=[5]  How far away is the nearest hospital, and in which town?
+score=100.0  acc=1  cite=1.00  pages=[3]  Can a 72-year-old get a cheaper adult membership?
+score=100.0  acc=1  cite=1.00  pages=[]  What is the Wi-Fi password at the observatory?
+score=100.0  acc=1  cite=1.00  pages=[]  How much does it cost to rent the dome for a wedding?
+
+model: deepseek-flash   retriever: hybrid   k=4
+answer accuracy: 1.00   citation correctness: 1.00   retrieval recall@4: 1.00
+OVERALL 100.0/100

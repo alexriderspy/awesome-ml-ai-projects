@@ -1,0 +1,123 @@
+{
+ "id": "binary-search",
+ "title": "The binary search bug that survived for years",
+ "segments": [
+  {
+   "start": 0.0,
+   "text": "Binary search is the first algorithm a lot of us learn, and it still trips up experienced engineers."
+  },
+  {
+   "start": 14.0,
+   "text": "The idea is simple: in a sorted array, check the middle element and throw away half the range each step."
+  },
+  {
+   "start": 28.0,
+   "text": "That gives you logarithmic time, so a billion elements takes about thirty comparisons."
+  },
+  {
+   "start": 42.0,
+   "text": "Here's the classic implementation: low starts at zero, high at the last index, and mid is low plus high divided by two."
+  },
+  {
+   "start": 56.0,
+   "text": "And that last line has a bug that sat in a famous standard library for close to a decade."
+  },
+  {
+   "start": 70.0,
+   "text": "When low and high are both large, low plus high can overflow a 32-bit integer."
+  },
+  {
+   "start": 84.0,
+   "text": "The sum wraps around to a negative number and the program crashes or reads the wrong index."
+  },
+  {
+   "start": 98.0,
+   "text": "The fix is to compute mid as low plus the difference between high and low, divided by two."
+  },
+  {
+   "start": 112.0,
+   "text": "That version never exceeds high, so it can't overflow."
+  },
+  {
+   "start": 126.0,
+   "text": "The second classic bug is the loop condition. Is it low less than high, or less than or equal?"
+  },
+  {
+   "start": 140.0,
+   "text": "Mixing the two with the wrong update rule gives you an infinite loop on two-element ranges."
+  },
+  {
+   "start": 154.0,
+   "text": "My advice: pick one convention, write down the invariant, and test the edge cases."
+  },
+  {
+   "start": 168.0,
+   "text": "Test an empty array, one element, two elements, the target at both ends, and a missing target."
+  },
+  {
+   "start": 182.0,
+   "text": "Property-based testing is great here: compare your function against a simple linear scan on random inputs."
+  },
+  {
+   "start": 196.0,
+   "text": "Finally, in Python you rarely need to write it yourself. The bisect module already does it correctly."
+  },
+  {
+   "start": 210.0,
+   "text": "So: watch the overflow, be consistent with your bounds, and test the edges."
+  },
+  {
+   "start": 224.0,
+   "text": "That's it for today."
+  }
+ ],
+ "facts": [
+  {
+   "fact": "Binary search halves the range each step for log time",
+   "keywords": [
+    [
+     "half",
+     "halv",
+     "log"
+    ]
+   ]
+  },
+  {
+   "fact": "low + high can overflow",
+   "keywords": [
+    [
+     "overflow"
+    ]
+   ]
+  },
+  {
+   "fact": "Fix: low + (high - low) / 2",
+   "keywords": [
+    [
+     "high - low",
+     "high-low",
+     "difference"
+    ]
+   ]
+  },
+  {
+   "fact": "Loop condition / bounds can cause infinite loops",
+   "keywords": [
+    [
+     "infinite",
+     "loop condition",
+     "bound"
+    ]
+   ]
+  },
+  {
+   "fact": "Test edge cases / use bisect",
+   "keywords": [
+    [
+     "edge",
+     "bisect"
+    ]
+   ]
+  }
+ ]
+}

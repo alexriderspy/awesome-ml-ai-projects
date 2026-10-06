@@ -1,0 +1,7 @@
+{
+ "name": "attrs",
+ "version": "21.1.0",
+ "missing": false,
+ "yanked": true,
+ "yanked_reason": "Installable but not importable on Python 3.4."
+}

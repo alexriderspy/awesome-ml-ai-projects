@@ -1,0 +1,101 @@
+{
+  "description": "all upcoming events with date, venue and ticket price",
+  "schema": {
+    "type": "object",
+    "key": "event",
+    "required": [
+      "event",
+      "date"
+    ],
+    "properties": {
+      "event": {
+        "type": "string",
+        "description": "event name"
+      },
+      "date": {
+        "type": "string",
+        "description": "YYYY-MM-DD"
+      },
+      "venue": {
+        "type": "string"
+      },
+      "price": {
+        "type": "number",
+        "description": "ticket price in dollars, 0 if free"
+      }
+    }
+  },
+  "start": "page1.html",
+  "pages": [
+    "page1.html",
+    "page2.html"
+  ],
+  "records": [
+    {
+      "event": "Seed Swap & Potluck",
+      "date": "2026-10-03",
+      "venue": "Elm Street Library",
+      "price": 0.0
+    },
+    {
+      "event": "Beginner Pottery Night",
+      "date": "2026-10-06",
+      "venue": "Kiln Room, Arts Center",
+      "price": 35.0
+    },
+    {
+      "event": "Riverside 5K Fun Run",
+      "date": "2026-10-10",
+      "venue": "Mill Park Pavilion",
+      "price": 20.0
+    },
+    {
+      "event": "Board Game Social",
+      "date": "2026-10-14",
+      "venue": "The Lantern Café",
+      "price": 5.0
+    },
+    {
+      "event": "Bike Repair Clinic",
+      "date": "2026-10-17",
+      "venue": "Community Workshop",
+      "price": 0.0
+    },
+    {
+      "event": "Jazz in the Atrium",
+      "date": "2026-10-21",
+      "venue": "City Hall Atrium",
+      "price": 12.5
+    },
+    {
+      "event": "Intro to Birdwatching",
+      "date": "2026-10-24",
+      "venue": "Heron Marsh Trailhead",
+      "price": 0.0
+    },
+    {
+      "event": "Harvest Market",
+      "date": "2026-10-31",
+      "venue": "Mill Park Pavilion",
+      "price": 0.0
+    },
+    {
+      "event": "Knife Skills Workshop",
+      "date": "2026-11-04",
+      "venue": "Fennel Kitchen School",
+      "price": 45.0
+    },
+    {
+      "event": "Open Mic Poetry",
+      "date": "2026-11-07",
+      "venue": "The Lantern Café",
+      "price": 3.0
+    },
+    {
+      "event": "Night Sky Viewing",
+      "date": "2026-11-11",
+      "venue": "Ridge Observatory Lot",
+      "price": 8.0
+    }
+  ]
+}

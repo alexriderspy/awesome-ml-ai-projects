@@ -1,0 +1,29 @@
+{
+ "id": "docker",
+ "topic": "Getting started with Docker containers",
+ "n_slides": 8,
+ "keywords": [
+  [
+   "image"
+  ],
+  [
+   "container"
+  ],
+  [
+   "dockerfile"
+  ],
+  [
+   "volume"
+  ],
+  [
+   "port"
+  ],
+  [
+   "registry",
+   "docker hub"
+  ],
+  [
+   "layer"
+  ]
+ ]
+}

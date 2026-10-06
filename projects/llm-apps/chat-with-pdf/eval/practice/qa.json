@@ -1,0 +1,205 @@
+{
+ "pdf": "observatory-handbook.pdf",
+ "questions": [
+  {
+   "q": "Who founded the observatory, and in what year?",
+   "keywords": [
+    [
+     "marlowe"
+    ],
+    [
+     "1987"
+    ]
+   ],
+   "pages": [
+    1
+   ]
+  },
+  {
+   "q": "How high above sea level is the dome?",
+   "keywords": [
+    [
+     "412"
+    ]
+   ],
+   "pages": [
+    1
+   ]
+  },
+  {
+   "q": "What is the aperture of the main telescope?",
+   "keywords": [
+    [
+     "16-inch",
+     "16 inch",
+     "406"
+    ]
+   ],
+   "pages": [
+    2
+   ]
+  },
+  {
+   "q": "What filter does the solar telescope use?",
+   "keywords": [
+    [
+     "hydrogen-alpha",
+     "hydrogen alpha",
+     "h-alpha"
+    ]
+   ],
+   "pages": [
+    2,
+    5
+   ]
+  },
+  {
+   "q": "How far in advance must Lantern be booked?",
+   "keywords": [
+    [
+     "48 hours",
+     "48-hour",
+     "two days"
+    ]
+   ],
+   "pages": [
+    2
+   ]
+  },
+  {
+   "q": "How much does a student membership cost per year?",
+   "keywords": [
+    [
+     "25"
+    ]
+   ],
+   "pages": [
+    3
+   ]
+  },
+  {
+   "q": "What happens if a member hasn't paid their fee by 1 March?",
+   "keywords": [
+    [
+     "key card",
+     "keycard",
+     "access"
+    ]
+   ],
+   "pages": [
+    3
+   ]
+  },
+  {
+   "q": "When are public observing nights held?",
+   "keywords": [
+    [
+     "first friday"
+    ]
+   ],
+   "pages": [
+    4
+   ]
+  },
+  {
+   "q": "How many supervised sessions does it take to become a dome keeper?",
+   "keywords": [
+    [
+     "three",
+     "3"
+    ]
+   ],
+   "pages": [
+    4
+   ]
+  },
+  {
+   "q": "At what wind speed must the dome be closed?",
+   "keywords": [
+    [
+     "40"
+    ]
+   ],
+   "pages": [
+    5
+   ]
+  },
+  {
+   "q": "How long are raw image files kept on the observatory computer?",
+   "keywords": [
+    [
+     "90 days",
+     "90"
+    ]
+   ],
+   "pages": [
+    6
+   ]
+  },
+  {
+   "q": "What did calendar sales pay for in 2024?",
+   "keywords": [
+    [
+     "shutter motor",
+     "shutter"
+    ]
+   ],
+   "pages": [
+    6
+   ]
+  },
+  {
+   "q": "Which telescope may be pointed at the Sun, and who has to check it first?",
+   "keywords": [
+    [
+     "hydrogen-alpha",
+     "hydrogen alpha",
+     "refractor"
+    ],
+    [
+     "dome keeper"
+    ]
+   ],
+   "pages": [
+    5
+   ]
+  },
+  {
+   "q": "How far away is the nearest hospital, and in which town?",
+   "keywords": [
+    [
+     "14 km",
+     "14 kilometres",
+     "14 kilometers"
+    ],
+    [
+     "calder bridge"
+    ]
+   ],
+   "pages": [
+    5
+   ]
+  },
+  {
+   "q": "Can a 72-year-old get a cheaper adult membership?",
+   "keywords": [
+    [
+     "50"
+    ]
+   ],
+   "pages": [
+    3
+   ]
+  },
+  {
+   "q": "What is the Wi-Fi password at the observatory?",
+   "keywords": [],
+   "pages": []
+  },
+  {
+   "q": "How much does it cost to rent the dome for a wedding?",
+   "keywords": [],
+   "pages": []
+  }
+ ]
+}

@@ -1,0 +1,5 @@
+[
+  {"id": 1, "text": "Dentist appointment moved to Thursday at 9:30, Dr. Rao's clinic on 4th street", "tags": ["health"], "created": "2026-01-10T08:00:00"},
+  {"id": 2, "text": "Buy oat milk, eggs and two lemons", "tags": ["shopping"], "created": "2026-01-11T18:20:00"},
+  {"id": 3, "text": "Team demo is on the 24th; prepare the latency chart", "tags": ["work"], "created": "2026-01-12T09:45:00"}
+]

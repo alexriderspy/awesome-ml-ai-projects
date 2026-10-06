@@ -1,0 +1,123 @@
+{
+ "id": "sourdough",
+ "title": "Keeping a sourdough starter alive",
+ "segments": [
+  {
+   "start": 0.0,
+   "text": "Today I'm showing you how I keep my sourdough starter healthy without fussing over it every day."
+  },
+  {
+   "start": 14.0,
+   "text": "A starter is just flour and water colonised by wild yeast and lactic acid bacteria."
+  },
+  {
+   "start": 28.0,
+   "text": "The yeast makes the bread rise, and the bacteria give it that sour flavour."
+  },
+  {
+   "start": 42.0,
+   "text": "I feed mine at a one to one to one ratio: one part starter, one part flour, one part water, by weight."
+  },
+  {
+   "start": 56.0,
+   "text": "Weigh everything. Cups are wildly inconsistent with flour."
+  },
+  {
+   "start": 70.0,
+   "text": "After feeding, mark the level on the jar with a rubber band."
+  },
+  {
+   "start": 84.0,
+   "text": "At room temperature a healthy starter doubles in about four to eight hours."
+  },
+  {
+   "start": 98.0,
+   "text": "It's ready to bake with at its peak, when it's domed and full of bubbles."
+  },
+  {
+   "start": 112.0,
+   "text": "If you see a grey liquid on top, that's called hooch. It just means the starter is hungry."
+  },
+  {
+   "start": 126.0,
+   "text": "Pour it off or stir it in, then feed it. Stirring it in makes the flavour more sour."
+  },
+  {
+   "start": 140.0,
+   "text": "If you don't bake often, keep the starter in the fridge and feed it once a week."
+  },
+  {
+   "start": 154.0,
+   "text": "Take it out the day before baking and give it two feedings to wake it up."
+  },
+  {
+   "start": 168.0,
+   "text": "Whole rye flour gives the starter a big boost because it has more nutrients for the microbes."
+  },
+  {
+   "start": 182.0,
+   "text": "The only real reason to throw a starter away is pink or orange streaks, which mean bad bacteria."
+  },
+  {
+   "start": 196.0,
+   "text": "Normal sour or even slightly vinegary smells are fine."
+  },
+  {
+   "start": 210.0,
+   "text": "So: feed by weight, watch it double, use it at the peak, and the fridge is your friend."
+  },
+  {
+   "start": 224.0,
+   "text": "Happy baking!"
+  }
+ ],
+ "facts": [
+  {
+   "fact": "Feed 1:1:1 by weight",
+   "keywords": [
+    [
+     "1:1:1",
+     "one to one",
+     "one part",
+     "ratio"
+    ]
+   ]
+  },
+  {
+   "fact": "Healthy starter doubles in 4-8 hours",
+   "keywords": [
+    [
+     "double"
+    ]
+   ]
+  },
+  {
+   "fact": "Hooch means it's hungry",
+   "keywords": [
+    [
+     "hooch",
+     "grey liquid",
+     "gray liquid"
+    ]
+   ]
+  },
+  {
+   "fact": "Fridge + weekly feeding if baking rarely",
+   "keywords": [
+    [
+     "fridge",
+     "refrigerat"
+    ]
+   ]
+  },
+  {
+   "fact": "Pink/orange streaks mean throw it away",
+   "keywords": [
+    [
+     "pink",
+     "orange"
+    ]
+   ]
+  }
+ ]
+}

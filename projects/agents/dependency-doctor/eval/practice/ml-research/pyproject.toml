@@ -1,0 +1,16 @@
+[project]
+name = "probe"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+  "torch>=2.2",
+  "tomli>=2.0",
+  "numpy==2.4.0",
+  "pandas==1.99.0",
+  "scikit-learn",
+  "backports.cached-property",
+  "sqlite3",
+]
+
+[dependency-groups]
+test = ["pytest>=8", "pytest-cov", "unittest2"]

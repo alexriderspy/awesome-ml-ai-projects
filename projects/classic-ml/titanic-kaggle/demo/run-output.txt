@@ -1,0 +1,61 @@
+train 916 rows, hidden test 393 rows
+
+== EDA (train only) ==
+rows: 916   survival rate: 0.382
+
+missing values:
+  age          190  (21%)
+  fare           1  (0%)
+  cabin        715  (78%)
+
+survival by sex:
+  female   0.724  (n=319)
+  male     0.199  (n=597)
+
+survival by pclass:
+  1        0.592  (n=228)
+  2        0.428  (n=187)
+  3        0.269  (n=501)
+
+survival by title:
+  Master   0.500  (n=44)
+  Miss     0.674  (n=181)
+  Mr       0.174  (n=536)
+  Mrs      0.788  (n=137)
+  Officer  0.250  (n=16)
+  Rare     0.500  (n=2)
+
+survival by age band:
+  0-13     0.548  (n=73)
+  14-29    0.381  (n=349)
+  30-49    0.414  (n=239)
+  50+      0.354  (n=65)
+
+survival by family size:
+  1        0.301  (n=559)
+  2        0.544  (n=158)
+  3        0.582  (n=110)
+  4        0.733  (n=30)
+  5+       0.169  (n=59)
+
+== 5-fold CV accuracy ==
+  majority     0.6179 ± 0.0008
+  gender_rule  0.7740 ± 0.0194
+  logistic     0.7969 ± 0.0062
+  gbm          0.7926 ± 0.0154
+
+wrote demo/submission.csv (393 rows)
+hidden-test accuracy (gbm): 0.8219
+
+permutation importance on hidden test (accuracy drop):
+  sex       0.0905
+  name      0.0419
+  pclass    0.0336
+  cabin     0.0322
+  sibsp     0.0237
+  age       0.0224
+  parch     0.0071
+  ticket    -0.0005
+  embarked  -0.0038
+  fare      -0.0050
+saved demo/feature_importance.png

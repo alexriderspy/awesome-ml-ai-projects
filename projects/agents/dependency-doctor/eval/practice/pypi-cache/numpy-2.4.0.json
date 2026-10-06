@@ -1,0 +1,7 @@
+{
+ "name": "numpy",
+ "version": "2.4.0",
+ "missing": false,
+ "yanked": true,
+ "yanked_reason": "Backward compatibility bug"
+}

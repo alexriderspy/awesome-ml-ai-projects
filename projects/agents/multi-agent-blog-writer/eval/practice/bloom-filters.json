@@ -1,0 +1,100 @@
+{
+ "id": "bloom-filters",
+ "topic": "How Bloom filters answer 'have I seen this before?' with very little memory",
+ "word_budget": 450,
+ "facts": [
+  {
+   "fact": "a bit array plus several hash functions",
+   "keywords": [
+    [
+     "bit array",
+     "array of bits",
+     "bits"
+    ],
+    [
+     "hash function",
+     "hash functions",
+     "hashes"
+    ]
+   ]
+  },
+  {
+   "fact": "false positives possible, false negatives impossible",
+   "keywords": [
+    [
+     "false positive",
+     "false positives"
+    ],
+    [
+     "false negative",
+     "false negatives",
+     "never says"
+    ]
+   ]
+  },
+  {
+   "fact": "about 10 bits per item for a 1% false positive rate",
+   "keywords": [
+    [
+     "10 bits",
+     "ten bits",
+     "9.6 bits"
+    ],
+    [
+     "1%",
+     "1 percent",
+     "one percent"
+    ]
+   ]
+  },
+  {
+   "fact": "standard filters cannot delete; counting Bloom filters can",
+   "keywords": [
+    [
+     "counting bloom",
+     "counters"
+    ]
+   ]
+  },
+  {
+   "fact": "invented by Burton Bloom in 1970",
+   "keywords": [
+    [
+     "1970"
+    ]
+   ]
+  }
+ ],
+ "search_results": [
+  {
+   "title": "Bloom filters in one page",
+   "url": "https://algo-garden.example.org/bloom/intro",
+   "snippet": "A Bloom filter is a probabilistic set. It stores an array of m bits, all zero at first, and uses k independent hash functions. To add an item you hash it k times and set those k bits to 1."
+  },
+  {
+   "title": "Checking membership",
+   "url": "https://algo-garden.example.org/bloom/lookup",
+   "snippet": "To check an item, hash it the same k ways. If any of those bits is 0 the item was definitely never added, so there are no false negatives. If all are 1 it was probably added: other items may have set the same bits, which is a false positive."
+  },
+  {
+   "title": "How big should my Bloom filter be?",
+   "url": "https://systems-digest.example.com/bloom-sizing",
+   "snippet": "The false positive rate depends on bits per item and the number of hash functions. A useful rule of thumb: about 10 bits per item with 7 hash functions gives roughly a 1% false positive rate, no matter how large each item is."
+  },
+  {
+   "title": "Where Bloom filters are used",
+   "url": "https://systems-digest.example.com/bloom-in-databases",
+   "snippet": "Databases built on LSM trees keep a Bloom filter per data file so a read can skip files that cannot contain the key, avoiding a disk seek. Web caches and spell checkers have used the same trick."
+  },
+  {
+   "title": "Why you can't delete from a Bloom filter",
+   "url": "https://algo-garden.example.org/bloom/deletes",
+   "snippet": "Clearing a bit to remove one item could also remove other items that share it, creating false negatives. A counting Bloom filter replaces each bit with a small counter that is incremented on insert and decremented on delete, at the cost of more memory."
+  },
+  {
+   "title": "A short history of the Bloom filter",
+   "url": "https://cs-history.example.net/burton-bloom",
+   "snippet": "Burton Howard Bloom described the structure in a 1970 paper about space/time trade-offs in hash coding with allowable errors. His example was hyphenation: keep the rare words that need special rules in a compact filter."
+  }
+ ]
+}

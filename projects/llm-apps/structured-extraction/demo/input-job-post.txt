@@ -1,0 +1,5 @@
+📢 We're hiring!! Kestrel Robotics is looking for a Computer Vision Engineer to join our perception team in Lisbon, Portugal (hybrid - office Tue/Thu).
+full time, permanent. €58k–72k gross/year depending on experience.
+you should have 3+ yrs shipping CV models, strong Python, OpenCV, PyTorch, and ROS 2.
+nice to have: CUDA, Rust
+deadline for applications: 20 Nov 2025. questions -> jobs@kestrel.example

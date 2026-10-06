@@ -1,0 +1,68 @@
+--- calc-product: What is (1234 * 5678) - 91011?
+  [step 1] calculator({"expression": "(1234 * 5678) - 91011"}) -> 6915641
+  answer: (1234 × 5678) − 91011 = **6,915,641**
+--- calc-power: What is 2 to the power of 20, divided by 64?
+  [step 1] calculator({"expression": "2**20 / 64"}) -> 16384
+  answer: 2^20 = 1,048,576, and dividing by 64 gives **16,384**.
+--- calc-tip-split: A pizza costs 18.75. We add a 15% tip and split the total between 4 people. How much does each person pay?
+  [step 1] calculator({"expression": "(18.75 * 1.15) / 4"}) -> 5.390625
+  answer: Total with 15% tip: 18.75 × 1.15 = 21.5625. Split 4 ways: **each person pays 5.390625**, i.e. about **$5.39** each (rounding up to $5.40 if you want to cover the whole bill).
+--- units-marathon: How many kilometres is 26.2 miles?
+  [step 1] unit_convert({"value": 26.2, "from_unit": "mi", "to_unit": "km"}) -> 26.2 mi = 42.164813 km
+  answer: 26.2 miles is **42.164813 km** (about 42.16 km) — the marathon distance.
+--- units-oven: My oven recipe says 350 degrees Fahrenheit. What is that in Celsius?
+  [step 1] unit_convert({"value": 350, "from_unit": "f", "to_unit": "c"}) -> 350 f = 176.666667 c
+  answer: 350°F is about **176.7°C** (usually rounded to 175°C or 180°C on oven dials).
+--- units-mass: How many pounds is 70 kg?
+  [step 1] unit_convert({"value": 70, "from_unit": "kg", "to_unit": "lb"}) -> 70 kg = 154.323584 lb
+  answer: 70 kg = **154.32 lb**.
+--- units-cups: How many US cups are in 2 litres?
+  [step 1] unit_convert({"value": 2, "from_unit": "l", "to_unit": "cup"}) -> 2 l = 8.453506 cup
+  answer: 2 litres = **8.453506 US cups** (about 8.45 cups).
+--- units-parallel: Two quick conversions: 10 miles to kilometres, and 100 Fahrenheit to Celsius.
+  [step 1 (parallel x2)] unit_convert({"value": 10, "from_unit": "mi", "to_unit": "km"}) -> 10 mi = 16.09344 km
+  [step 1 (parallel x2)] unit_convert({"value": 100, "from_unit": "f", "to_unit": "c"}) -> 100 f = 37.777778 c
+  answer: - 10 miles = **16.09344 km** - 100 °F = **37.777778 °C**
+--- pace: I ran 5 km in 25 minutes. What was my pace in minutes per mile?
+  [step 1] unit_convert({"value": 5, "from_unit": "km", "to_unit": "mi"}) -> 5 km = 3.106856 mi
+  [step 2] calculator({"expression": "25 / 3.106856"}) -> 8.0467198995
+  [step 3] calculator({"expression": "(8.0467198995 - 8) * 60"}) -> 2.80319397
+  answer: Your 5 km in 25 minutes works out to a pace of about **8.05 minutes per mile** — roughly **8:03 per mile**.  Details: - 5 km = 3.106856 mi - 25 min ÷ 3.106856 mi = 8.0467 min/mi (the extra 0.0467 min ≈ 2.8 s, so ~8 min 03 s per mile)
+--- weather-one: What's the temperature in Reykjavik right now?
+  [step 1] get_weather({"city": "Reykjavik"}) -> {"city": "Reykjavik", "country": "Iceland", "local_time": "2026-01-15T12:00", "temperature_c": 4.2, "humidity_pct": 81, ...
+  answer: It's currently **4.2 °C** in Reykjavik, Iceland (as of 12:00 local time), with light rain, 81% humidity and a 31 km/h wind.
+--- weather-parallel: Is it warmer in Oslo or in Cairo right now, and by how many degrees Celsius?
+  [step 1 (parallel x2)] get_weather({"city": "Oslo"}) -> {"city": "Oslo", "country": "Norway", "local_time": "2026-01-15T12:00", "temperature_c": 7.5, "humidity_pct": 70, "wind_...
+  [step 1 (parallel x2)] get_weather({"city": "Cairo"}) -> {"city": "Cairo", "country": "Egypt", "local_time": "2026-01-15T13:00", "temperature_c": 29.1, "humidity_pct": 30, "wind...
+  [step 2] calculator({"expression": "29.1 - 7.5"}) -> 21.6
+  answer: It's warmer in **Cairo** — 29.1 °C (clear sky) versus **7.5 °C** in Oslo (overcast), so Cairo is warmer by **21.6 °C**.
+--- notes-search: When is my dentist appointment? Check my notes.
+  [step 1] search_notes({"query": "dentist appointment"}) -> [{"id": 1, "text": "Dentist appointment moved to Thursday at 9:30, Dr. Rao's clinic on 4th street", "tags": ["health"], ...
+  answer: Your dentist appointment is **Thursday at 9:30**, at Dr. Rao's clinic on 4th street (note from 2026-01-10, tagged "health").
+--- notes-add: Add a note: renew the library card before Friday.
+  [step 1] add_note({"text": "Renew the library card before Friday.", "tags": ["errand"]}) -> {"saved": {"id": 4, "text": "Renew the library card before Friday.", "tags": ["errand"], "created": "2026-10-06T13:58:42...
+  answer: Saved — note #4: "Renew the library card before Friday." (tagged `errand`, created 2026-10-06T13:58:42).
+--- error-div-zero: Use the calculator to work out 7 divided by (2 - 2).
+  [step 1] calculator({"expression": "7 / (2 - 2)"}) -> !! Error: calculator failed: CalcError: division by zero
+  answer: The calculator returned an error: **`division by zero`**.  That's expected — the expression is 7 ÷ (2 − 2) = 7 ÷ 0, which is undefined in arithmetic, so there's no numeric answer to report.
+--- error-volume-to-mass: Use the unit converter to turn 2 litres into grams.
+  [step 1] unit_convert({"value": 2, "from_unit": "l", "to_unit": "g"}) -> !! Error: unit_convert failed: UnitError: cannot convert volume (l) to mass (g)
+  [step 2] calculator({"expression": "2 * 1000"}) -> 2000
+  answer: 2 L of water = **2000 g** (since 1 L of water weighs 1 kg).  For anything else, tell me the substance and I'll factor in its density — e.g. 2 L of olive oil (~0.91 kg/L) would be ~1820 g.
+calc-product           score=100.0  answer=1.00  tools=1.00  steps=2  called=calculator
+calc-power             score=100.0  answer=1.00  tools=1.00  steps=2  called=calculator
+calc-tip-split         score=100.0  answer=1.00  tools=1.00  steps=2  called=calculator
+units-marathon         score=100.0  answer=1.00  tools=1.00  steps=2  called=unit_convert
+units-oven             score=100.0  answer=1.00  tools=1.00  steps=2  called=unit_convert
+units-mass             score=100.0  answer=1.00  tools=1.00  steps=2  called=unit_convert
+units-cups             score=100.0  answer=1.00  tools=1.00  steps=2  called=unit_convert
+units-parallel         score=100.0  answer=1.00  tools=1.00  steps=2  called=unit_convert,unit_convert
+pace                   score=100.0  answer=1.00  tools=1.00  steps=4  called=unit_convert,calculator,calculator
+weather-one            score=100.0  answer=1.00  tools=1.00  steps=2  called=get_weather
+weather-parallel       score=100.0  answer=1.00  tools=1.00  steps=3  called=get_weather,get_weather,calculator
+notes-search           score=100.0  answer=1.00  tools=1.00  steps=2  called=search_notes
+notes-add              score=100.0  answer=1.00  tools=1.00  steps=2  called=add_note
+error-div-zero         score=100.0  answer=1.00  tools=1.00  steps=2  called=calculator
+error-volume-to-mass   score= 85.0  answer=1.00  tools=0.50  steps=3  called=unit_convert,calculator
+
+OVERALL 99.0/100

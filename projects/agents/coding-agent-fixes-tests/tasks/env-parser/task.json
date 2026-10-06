@@ -1,0 +1,3 @@
+{
+  "issue": "parse_env crashes with 'too many values to unpack' when a value itself contains an '=' sign, for example a database URL with query parameters."
+}

@@ -1,0 +1,3 @@
+{
+  "issue": "depth() is one too small for every tree (a single node should have depth 1) and it crashes on an empty tree (None), which should have depth 0."
+}

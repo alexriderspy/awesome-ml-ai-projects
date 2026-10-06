@@ -1,0 +1,3 @@
+{
+  "issue": "parse_version only reads single-digit parts, so '1.10.0' is not seen as newer than '1.9.9'. It also accepts junk like '1a2b3' and '1.2.3.4'. Pre-release suffixes like '-beta' should still be allowed."
+}

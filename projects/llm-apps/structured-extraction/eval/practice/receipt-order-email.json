@@ -1,0 +1,34 @@
+{
+ "id": "receipt-order-email",
+ "schema": "receipt",
+ "text": "Subject: Your order #NB-20931 has shipped!\n\nHi Sam, thanks for shopping with Northbound Outfitters.\n\nOrder date: September 30, 2025\nItems in this shipment\n - Trail Running Socks (3-pack) — Qty: 2 — $36.00\n - Merino Beanie, charcoal — Qty: 1 — $29.50\n - Headlamp 350lm — Qty: 1 — $44.99\nMerchandise: $110.49\nPromo SPRING15: -$16.57\nShipping: $0.00\nEstimated tax: $7.84\nOrder total: $101.76\nCharged to Mastercard ending 0042\n\nQuestions? Reply to this email. Happy trails!",
+ "gold": {
+  "merchant": "Northbound Outfitters",
+  "date": "2025-09-30",
+  "currency": "USD",
+  "items": [
+   {
+    "name": "Trail Running Socks (3-pack)",
+    "quantity": 2,
+    "total": 36.0
+   },
+   {
+    "name": "Merino Beanie, charcoal",
+    "quantity": 1,
+    "total": 29.5
+   },
+   {
+    "name": "Headlamp 350lm",
+    "quantity": 1,
+    "total": 44.99
+   }
+  ],
+  "subtotal": 110.49,
+  "discount": 16.57,
+  "tax": 7.84,
+  "tax_included": false,
+  "tip": null,
+  "total": 101.76,
+  "payment_method": "card"
+ }
+}

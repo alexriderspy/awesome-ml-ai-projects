@@ -1,0 +1,107 @@
+{
+ "id": "heat-pumps",
+ "topic": "How air-source heat pumps keep a house warm in winter",
+ "word_budget": 500,
+ "facts": [
+  {
+   "fact": "refrigerant carries heat from outside air",
+   "keywords": [
+    [
+     "refrigerant"
+    ],
+    [
+     "outside air",
+     "outdoor air"
+    ]
+   ]
+  },
+  {
+   "fact": "the compressor raises the refrigerant temperature",
+   "keywords": [
+    [
+     "compressor",
+     "compresses"
+    ]
+   ]
+  },
+  {
+   "fact": "COP around 3: about three units of heat per unit of electricity",
+   "keywords": [
+    [
+     "coefficient of performance",
+     "cop"
+    ],
+    [
+     "about 3",
+     "around 3",
+     "of 3",
+     "roughly 3",
+     "three",
+     "3 kwh",
+     "3 kilowatt",
+     "3x",
+     "3 times"
+    ]
+   ]
+  },
+  {
+   "fact": "efficiency drops as it gets colder, cold-climate models work well below freezing",
+   "keywords": [
+    [
+     "below freezing",
+     "-15",
+     "−15",
+     "-25",
+     "−25",
+     "sub-zero",
+     "subzero"
+    ]
+   ]
+  },
+  {
+   "fact": "defrost cycle clears ice from the outdoor coil",
+   "keywords": [
+    [
+     "defrost"
+    ]
+   ]
+  }
+ ],
+ "search_results": [
+  {
+   "title": "Heat pump basics: moving heat instead of making it",
+   "url": "https://energy-notes.example.org/heat-pumps/basics",
+   "snippet": "A heat pump does not burn fuel to make heat. It moves heat that already exists in the outside air into the house, using a refrigerant that boils at very low temperatures, so even cold outdoor air can warm it up."
+  },
+  {
+   "title": "The refrigeration cycle, step by step",
+   "url": "https://energy-notes.example.org/heat-pumps/cycle",
+   "snippet": "The refrigerant absorbs heat in the outdoor coil and turns to vapour. A compressor squeezes that vapour, which raises its temperature to well above room temperature. Indoors it condenses and releases the heat, then passes an expansion valve and the loop repeats."
+  },
+  {
+   "title": "What COP means for your energy bill",
+   "url": "https://homefix.example.com/guides/heat-pump-efficiency",
+   "snippet": "Efficiency is measured as the coefficient of performance (COP): heat delivered divided by electricity used. A typical air-source unit has a COP of about 3 in mild winter weather, so one kilowatt-hour of electricity delivers roughly three kilowatt-hours of heat."
+  },
+  {
+   "title": "Do heat pumps work in freezing weather?",
+   "url": "https://homefix.example.com/guides/cold-weather",
+   "snippet": "COP falls as the outdoor temperature drops because there is less heat to collect. Modern cold-climate models still heat effectively at -15°C, and some are rated down to -25°C, though a backup heater may help on the coldest nights."
+  },
+  {
+   "title": "Why your heat pump sometimes blows steam",
+   "url": "https://energy-notes.example.org/heat-pumps/defrost",
+   "snippet": "In cold, damp weather frost builds up on the outdoor coil. The unit runs a short defrost cycle, briefly reversing the flow to warm the coil and melt the ice. The cloud of steam you may see outside is normal."
+  },
+  {
+   "title": "Heat pump or gas boiler?",
+   "url": "https://greenhome.example.net/heat-pump-vs-boiler",
+   "snippet": "Because a heat pump delivers more heat than the electricity it uses, it can cut heating emissions sharply compared with a gas boiler, especially where the grid uses low-carbon power. Upfront cost is usually higher than a boiler."
+  },
+  {
+   "title": "Sizing and insulation tips",
+   "url": "https://greenhome.example.net/sizing",
+   "snippet": "Heat pumps work best with low flow temperatures, so good insulation and larger radiators or underfloor heating help. An installer should do a room-by-room heat loss calculation before choosing a unit size."
+  }
+ ]
+}

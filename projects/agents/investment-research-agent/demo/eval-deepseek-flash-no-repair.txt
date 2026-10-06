@@ -1,0 +1,8 @@
+beverages      score=100.0  numbers=1.00 (34 checked)  sections=1.00  disclaimer=1.00  no_advice=1.00  tickers=1.00  | tool_calls=7 repairs=0 tokens=3867
+big-tech       score= 97.9  numbers=0.95 (38 checked)  sections=1.00  disclaimer=1.00  no_advice=1.00  tickers=1.00  | tool_calls=7 repairs=0 tokens=5856
+               numbers not computed by code: 1.21%, 1.10%
+chipmakers     score= 97.3  numbers=0.93 (30 checked)  sections=1.00  disclaimer=1.00  no_advice=1.00  tickers=1.00  | tool_calls=5 repairs=0 tokens=3671
+               numbers not computed by code: 1.8, 1.0
+oil-vs-pharma  score=100.0  numbers=1.00 (44 checked)  sections=1.00  disclaimer=1.00  no_advice=1.00  tickers=1.00  | tool_calls=10 repairs=0 tokens=4733
+
+OVERALL 98.8/100

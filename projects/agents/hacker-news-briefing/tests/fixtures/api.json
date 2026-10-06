@@ -1,0 +1,11 @@
+{"_note": "Small original stand-in for HN API responses, keyed by URL. Used by the offline tests.",
+ "https://hacker-news.firebaseio.com/v0/topstories.json": [101, 102, 103, 104, 105],
+ "https://hacker-news.firebaseio.com/v0/item/101.json": {"id": 101, "type": "story", "by": "quill", "time": 1791000000, "title": "Postgres query planner tricks for big joins", "url": "https://blog.example.org/planner", "score": 220, "descendants": 41, "kids": [201, 202, 203]},
+ "https://hacker-news.firebaseio.com/v0/item/102.json": {"id": 102, "type": "story", "by": "mint", "time": 1791000100, "title": "Bitcoin miners pivot to renting GPUs", "url": "https://news.example.com/miners", "score": 510, "descendants": 300},
+ "https://hacker-news.firebaseio.com/v0/item/103.json": {"id": 103, "type": "job", "by": "acme", "time": 1791000200, "title": "Acme (YC W99) is hiring a database engineer", "url": "https://acme.example.com/jobs"},
+ "https://hacker-news.firebaseio.com/v0/item/104.json": {"id": 104, "type": "story", "dead": true, "title": "spam spam spam", "score": 1},
+ "https://hacker-news.firebaseio.com/v0/item/105.json": {"id": 105, "type": "story", "by": "lark", "time": 1791000300, "title": "Ask HN: Which SQLite backup strategy do you trust?", "score": 80, "descendants": 52, "text": "We run SQLite on <i>three</i> edge boxes.<p>Litestream, cron + .backup, or something else?"},
+ "https://hacker-news.firebaseio.com/v0/item/201.json": {"id": 201, "type": "comment", "deleted": true},
+ "https://hacker-news.firebaseio.com/v0/item/202.json": {"id": 202, "type": "comment", "by": "joe", "text": "The <code>enable_hashjoin</code> trick saved us &gt; 40% on one report.<p>Measure first though."},
+ "https://hacker-news.firebaseio.com/v0/item/203.json": {"id": 203, "type": "comment", "by": "sam", "text": "Extended statistics are the underrated part."}
+}

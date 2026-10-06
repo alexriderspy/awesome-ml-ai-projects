@@ -1,0 +1,24 @@
+{
+ "id": "job-backend-austin",
+ "schema": "job_post",
+ "text": "Senior Backend Engineer – Payments | Lumora Labs\nLocation: Austin, TX (Hybrid, 3 days in office)\nType: Full-time\nComp: $150,000 – $185,000 / yr + equity\n\nWe're looking for someone with 5+ years building backend services that move money.\nOur stack: Go, PostgreSQL, Kafka, Kubernetes.\nBonus points: experience with PCI compliance.\nApply by Dec 15, 2025.",
+ "gold": {
+  "title": "Senior Backend Engineer",
+  "company": "Lumora Labs",
+  "location": "Austin, TX",
+  "work_mode": "hybrid",
+  "employment_type": "full-time",
+  "salary_min": 150000,
+  "salary_max": 185000,
+  "salary_currency": "USD",
+  "salary_period": "year",
+  "min_years_experience": 5,
+  "skills": [
+   "Go",
+   "PostgreSQL",
+   "Kafka",
+   "Kubernetes"
+  ],
+  "apply_by": "2025-12-15"
+ }
+}

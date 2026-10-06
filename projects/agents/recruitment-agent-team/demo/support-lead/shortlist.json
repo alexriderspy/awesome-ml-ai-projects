@@ -1,0 +1,411 @@
+{
+  "role": "Customer Support Team Lead (B2B SaaS)",
+  "candidates": [
+    {
+      "candidate_id": "sl-04",
+      "items": [
+        {
+          "id": "M1",
+          "score": 3,
+          "evidence": "Support Team Lead, Clockwise Payroll (2022 - present)",
+          "valid": true
+        },
+        {
+          "id": "M2",
+          "score": 3,
+          "evidence": "Manage 6 support specialists handling 2,500 Freshdesk tickets a month for accounting firms.",
+          "valid": true
+        },
+        {
+          "id": "M3",
+          "score": 2,
+          "evidence": "Own the weekly support metrics report (CSAT, first response time, full resolution time) built from Freshdesk exports in Google Sheets and a few SQL queries.",
+          "valid": true
+        },
+        {
+          "id": "M4",
+          "score": 3,
+          "evidence": "Wrote a style guide for the knowledge base and personally published 30 articles.",
+          "valid": true
+        },
+        {
+          "id": "N1",
+          "score": 2,
+          "evidence": "Support team lead in B2B SaaS with a focus on metrics and self-service.",
+          "valid": true
+        },
+        {
+          "id": "N2",
+          "score": 3,
+          "evidence": "built from Freshdesk exports in Google Sheets and a few SQL queries.",
+          "valid": true
+        },
+        {
+          "id": "N3",
+          "score": 1,
+          "evidence": "Ran the hiring loop for 3 specialists, including a written support exercise.",
+          "valid": true
+        }
+      ],
+      "summary": "The candidate shows support leadership, Freshdesk, metrics, knowledge-base, and data-analysis experience, with hiring but no explicit onboarding evidence.",
+      "fit": 84.8,
+      "qualifies": true,
+      "shortlisted": true,
+      "attempts": 1,
+      "quotes_first": [
+        7,
+        7
+      ],
+      "quotes_final": [
+        7,
+        7
+      ],
+      "redactions": {
+        "name": 1,
+        "gender": 1,
+        "pronouns": 1,
+        "graduation_year": 1,
+        "email": 1
+      },
+      "error": ""
+    },
+    {
+      "candidate_id": "sl-01",
+      "items": [
+        {
+          "id": "M1",
+          "score": 3,
+          "evidence": "Lead a team of 9 agents across email and chat in Zendesk.",
+          "valid": true
+        },
+        {
+          "id": "M2",
+          "score": 3,
+          "evidence": "Cut median first response time from 9 hours to 2 hours with Zendesk triggers and a follow-the-sun rota.",
+          "valid": true
+        },
+        {
+          "id": "M3",
+          "score": 2,
+          "evidence": "Raised CSAT from 86% to 94% in a year by adding macros, a weekly QA review and coaching sessions.",
+          "valid": true
+        },
+        {
+          "id": "M4",
+          "score": 3,
+          "evidence": "Rewrote 60 help-center articles and set up a monthly review of the top search terms with no results.",
+          "valid": true
+        },
+        {
+          "id": "N1",
+          "score": 2,
+          "evidence": "Support lead at a project-management SaaS.",
+          "valid": true
+        },
+        {
+          "id": "N2",
+          "score": 0,
+          "evidence": "",
+          "valid": true
+        },
+        {
+          "id": "N3",
+          "score": 3,
+          "evidence": "Hired and onboarded 5 agents with a two-week shadowing plan.",
+          "valid": true
+        }
+      ],
+      "summary": "The candidate shows strong SaaS support leadership with Zendesk, metric improvements, help-center work, and agent onboarding, but no stated spreadsheet or SQL analysis.",
+      "fit": 81.8,
+      "qualifies": true,
+      "shortlisted": true,
+      "attempts": 1,
+      "quotes_first": [
+        6,
+        6
+      ],
+      "quotes_final": [
+        6,
+        6
+      ],
+      "redactions": {
+        "name": 1,
+        "date_of_birth": 1,
+        "graduation_year": 1,
+        "email": 1,
+        "phone": 1,
+        "family": 1
+      },
+      "error": ""
+    },
+    {
+      "candidate_id": "sl-06",
+      "items": [
+        {
+          "id": "M1",
+          "score": 3,
+          "evidence": "Supervise 8 agents handling email and chat tickets for web-hosting customers in Zendesk.",
+          "valid": true
+        },
+        {
+          "id": "M2",
+          "score": 2,
+          "evidence": "handling email and chat tickets for web-hosting customers in Zendesk",
+          "valid": true
+        },
+        {
+          "id": "M3",
+          "score": 2,
+          "evidence": "Track CSAT, first response time and average handle time daily; brought first response time under 1 hour for 11 straight months.",
+          "valid": true
+        },
+        {
+          "id": "M4",
+          "score": 2,
+          "evidence": "Write and update FAQ and help-center articles after every product release.",
+          "valid": true
+        },
+        {
+          "id": "N1",
+          "score": 1,
+          "evidence": "Contact-centre supervisor with long experience running support teams for a software company.",
+          "valid": true
+        },
+        {
+          "id": "N2",
+          "score": 0,
+          "evidence": "",
+          "valid": true
+        },
+        {
+          "id": "N3",
+          "score": 1,
+          "evidence": "Led a team of 15 phone agents for a mobile operator and trained new starters.",
+          "valid": true
+        }
+      ],
+      "summary": "The candidate has strong support team leadership and Zendesk experience, with related experience in help-center writing and training new starters but limited evidence for B2B SaaS, spreadsheet/SQL analysis, and hiring.",
+      "fit": 60.6,
+      "qualifies": true,
+      "shortlisted": true,
+      "attempts": 1,
+      "quotes_first": [
+        6,
+        6
+      ],
+      "quotes_final": [
+        6,
+        6
+      ],
+      "redactions": {
+        "name": 1,
+        "graduation_year": 2,
+        "email": 1,
+        "age": 1
+      },
+      "error": ""
+    },
+    {
+      "candidate_id": "sl-02",
+      "items": [
+        {
+          "id": "M1",
+          "score": 1,
+          "evidence": "Informally helped one new hire learn the product during their first month.",
+          "valid": true
+        },
+        {
+          "id": "M2",
+          "score": 2,
+          "evidence": "Answer 60+ Intercom conversations a day for a B2B CRM product.",
+          "valid": true
+        },
+        {
+          "id": "M3",
+          "score": 1,
+          "evidence": "Keep a personal CSAT above 95%.",
+          "valid": true
+        },
+        {
+          "id": "M4",
+          "score": 2,
+          "evidence": "Wrote and maintain 40 help-center articles on integrations and billing.",
+          "valid": true
+        },
+        {
+          "id": "N1",
+          "score": 2,
+          "evidence": "Answer 60+ Intercom conversations a day for a B2B CRM product.",
+          "valid": true
+        },
+        {
+          "id": "N2",
+          "score": 1,
+          "evidence": "Intercom, Notion, Google Sheets, Loom",
+          "valid": true
+        },
+        {
+          "id": "N3",
+          "score": 1,
+          "evidence": "Informally helped one new hire learn the product during their first month.",
+          "valid": true
+        }
+      ],
+      "summary": "The candidate has strong hands-on support tooling and help-center writing experience, with limited evidence of formal team leadership or metric ownership.",
+      "fit": 48.5,
+      "qualifies": false,
+      "shortlisted": false,
+      "attempts": 1,
+      "quotes_first": [
+        7,
+        7
+      ],
+      "quotes_final": [
+        7,
+        7
+      ],
+      "redactions": {
+        "name": 1,
+        "pronouns": 1,
+        "graduation_year": 1,
+        "email": 1,
+        "pronoun": 1
+      },
+      "error": ""
+    },
+    {
+      "candidate_id": "sl-03",
+      "items": [
+        {
+          "id": "M1",
+          "score": 1,
+          "evidence": "Manage 12 staff, rotas and in-store customer complaints.",
+          "valid": true
+        },
+        {
+          "id": "M2",
+          "score": 0,
+          "evidence": "",
+          "valid": true
+        },
+        {
+          "id": "M3",
+          "score": 0,
+          "evidence": "",
+          "valid": true
+        },
+        {
+          "id": "M4",
+          "score": 0,
+          "evidence": "",
+          "valid": true
+        },
+        {
+          "id": "N1",
+          "score": 0,
+          "evidence": "",
+          "valid": true
+        },
+        {
+          "id": "N2",
+          "score": 0,
+          "evidence": "",
+          "valid": true
+        },
+        {
+          "id": "N3",
+          "score": 1,
+          "evidence": "Trained new hires on the point-of-sale system and returns policy.",
+          "valid": true
+        }
+      ],
+      "summary": "Retail management candidate with customer service leadership but no B2B SaaS support tooling, metrics, or knowledge-base experience.",
+      "fit": 9.1,
+      "qualifies": false,
+      "shortlisted": false,
+      "attempts": 1,
+      "quotes_first": [
+        2,
+        2
+      ],
+      "quotes_final": [
+        2,
+        2
+      ],
+      "redactions": {
+        "name": 1,
+        "age": 1,
+        "marital_status": 1,
+        "graduation_year": 1,
+        "email": 1
+      },
+      "error": ""
+    },
+    {
+      "candidate_id": "sl-05",
+      "items": [
+        {
+          "id": "M1",
+          "score": 0,
+          "evidence": "",
+          "valid": true
+        },
+        {
+          "id": "M2",
+          "score": 0,
+          "evidence": "",
+          "valid": true
+        },
+        {
+          "id": "M3",
+          "score": 0,
+          "evidence": "",
+          "valid": true
+        },
+        {
+          "id": "M4",
+          "score": 0,
+          "evidence": "",
+          "valid": true
+        },
+        {
+          "id": "N1",
+          "score": 1,
+          "evidence": "Manage a book of 80 mid-market accounts worth $3.2M ARR in Salesforce.",
+          "valid": true
+        },
+        {
+          "id": "N2",
+          "score": 0,
+          "evidence": "",
+          "valid": true
+        },
+        {
+          "id": "N3",
+          "score": 0,
+          "evidence": "",
+          "valid": true
+        }
+      ],
+      "summary": "The candidate has account management and sales experience but no evident customer support leadership, ticketing tool, support metrics, or knowledge-base experience.",
+      "fit": 3.0,
+      "qualifies": false,
+      "shortlisted": false,
+      "attempts": 1,
+      "quotes_first": [
+        1,
+        1
+      ],
+      "quotes_final": [
+        1,
+        1
+      ],
+      "redactions": {
+        "name": 1,
+        "graduation_year": 1,
+        "email": 1
+      },
+      "error": ""
+    }
+  ]
+}

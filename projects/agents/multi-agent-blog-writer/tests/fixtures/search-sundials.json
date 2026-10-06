@@ -1,0 +1,13 @@
+{
+ "query_note": "Hand-written cached search results for offline tests (original text, example.* domains).",
+ "search_results": [
+  {"title": "How a sundial tells time", "url": "https://timekeeping.example.org/sundials/basics",
+   "snippet": "A sundial tells the time from the shadow cast by a pointer called the gnomon. As the sun moves across the sky the shadow sweeps across hour lines."},
+  {"title": "Aligning the gnomon", "url": "https://timekeeping.example.org/sundials/gnomon",
+   "snippet": "For accurate readings the gnomon must point at the celestial pole, so its angle equals the local latitude."},
+  {"title": "Sundial time vs clock time", "url": "https://clockwork.example.com/equation-of-time",
+   "snippet": "Sundials show apparent solar time, which can differ from clock time by up to about 16 minutes over the year. The correction is called the equation of time."},
+  {"title": "Unrelated: baking bread", "url": "https://kitchen.example.net/bread",
+   "snippet": "Knead the dough for ten minutes and let it rise."}
+ ]
+}

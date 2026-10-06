@@ -1,0 +1,6 @@
+bloom-filters    score=100.0  facts=1.00  citations=1.00  structure=1.00  budget=1.00  words=461  steps=11  handoffs=5  revisions=0  stopped=done
+composting       score=100.0  facts=1.00  citations=1.00  structure=1.00  budget=1.00  words=548  steps=11  handoffs=5  revisions=0  stopped=done
+heat-pumps       score=100.0  facts=1.00  citations=1.00  structure=1.00  budget=1.00  words=496  steps=10  handoffs=5  revisions=0  stopped=done
+noise-cancelling score=100.0  facts=1.00  citations=1.00  structure=1.00  budget=1.00  words=432  steps=12  handoffs=5  revisions=0  stopped=done
+
+OVERALL 100.0/100

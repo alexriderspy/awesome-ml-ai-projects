@@ -1,0 +1,7 @@
+{
+  "id": "win-not-block",
+  "board": "OO....XX.",
+  "kind": "win",
+  "answer": 9,
+  "note": "Both sides threaten; X moves first and wins at 9."
+}

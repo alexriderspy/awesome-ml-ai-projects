@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "ledger"
+version = "1.4.0"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.110"
+pydantic = "1.10.3"
+contextlib2 = "*"
+uvicorn = "*"
+tomli = "^2.0"
+
+[tool.poetry.group.dev.dependencies]
+black = "21.11b0"

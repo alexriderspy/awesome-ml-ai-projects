@@ -1,0 +1,7 @@
+{
+ "name": "urllib3",
+ "version": "2.0.0",
+ "missing": false,
+ "yanked": true,
+ "yanked_reason": "Truncated response bodies when streaming a large compressed body. Upgrade to at least 2.0.2 (See: https://github.com/urllib3/urllib3/issues/3009)"
+}

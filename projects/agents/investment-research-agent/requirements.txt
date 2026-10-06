@@ -1,0 +1,4 @@
+openai>=1.40
+yfinance>=0.2.40
+streamlit>=1.35
+pytest>=7

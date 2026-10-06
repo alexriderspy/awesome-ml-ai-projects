@@ -1,0 +1,3 @@
+{
+  "issue": "slugify('  Hello, World!  ') returns '--hello--world---' instead of 'hello-world'. Runs of other characters should become one dash, with no dashes at the ends."
+}

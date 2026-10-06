@@ -1,0 +1,5 @@
+binary-search    score=100.0  facts=1.00  timestamps=1.00  length=1.00  structure=1.00
+sourdough        score=100.0  facts=1.00  timestamps=1.00  length=1.00  structure=1.00
+vector-dbs       score=100.0  facts=1.00  timestamps=1.00  length=1.00  structure=1.00
+
+OVERALL 100.0/100

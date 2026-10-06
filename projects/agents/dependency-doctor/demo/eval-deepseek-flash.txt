@@ -1,0 +1,13 @@
+flask-api      P=1.00 R=1.00 F1=1.00  (5/5 gold, 5 found)  explain=ok leaks=0
+data-pipeline  P=1.00 R=1.00 F1=1.00  (6/6 gold, 6 found)  explain=ok leaks=0
+tiny-lib       P=1.00 R=1.00 F1=1.00  (5/5 gold, 5 found)  explain=ok leaks=0
+poetry-app     P=1.00 R=1.00 F1=1.00  (4/4 gold, 4 found)  explain=ok leaks=0
+clean-pinned   P=1.00 R=1.00 F1=1.00  (0/0 gold, 0 found)
+py2-port       P=1.00 R=1.00 F1=1.00  (9/9 gold, 9 found)  explain=ok leaks=0
+conflicts      P=1.00 R=1.00 F1=1.00  (5/5 gold, 5 found)  explain=ok leaks=0
+ml-research    P=1.00 R=1.00 F1=1.00  (8/8 gold, 8 found)  explain=ok leaks=0
+
+findings micro P=1.000 R=1.000 F1=1.000
+explanations grounded: 7/7
+
+OVERALL 100.0/100

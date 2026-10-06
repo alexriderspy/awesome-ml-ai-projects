@@ -1,0 +1,10 @@
+numpy==1.26.4
+pandas>=2.0,<3
+pyyaml==6.0.1
+PyYAML>=6.0
+enum34==1.1.10
+futures==3.4.0 ; python_version < "3.0"
+typing==3.7.4.3
+uuid
+json
+urllib3==2.0.0

@@ -1,0 +1,6 @@
+majority     cv_acc=0.6179 ± 0.0008  hidden_test_acc=0.6183
+gender_rule  cv_acc=0.7740 ± 0.0194  hidden_test_acc=0.7939
+logistic     cv_acc=0.7969 ± 0.0062  hidden_test_acc=0.8346
+gbm          cv_acc=0.7926 ± 0.0154  hidden_test_acc=0.8219
+
+OVERALL 79.3/100  (gbm CV accuracy)

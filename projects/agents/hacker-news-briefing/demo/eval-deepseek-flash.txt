@@ -1,0 +1,11 @@
+ml-engineer/hn-2026-10-06          score= 97.3  ndcg@5_bm25=1.00  ndcg@5_llm=0.95  format=1.00  terms=1.00
+ml-engineer/original               score=100.0  ndcg@5_bm25=0.99  ndcg@5_llm=1.00  format=1.00  terms=1.00
+backend-dev/hn-2026-10-06          score= 96.1  ndcg@5_bm25=0.92  ndcg@5_llm=0.92  format=1.00  terms=1.00
+backend-dev/original               score=100.0  ndcg@5_bm25=1.00  ndcg@5_llm=1.00  format=1.00  terms=1.00
+hardware-tinkerer/hn-2026-10-06    score= 96.7  ndcg@5_bm25=0.94  ndcg@5_llm=1.00  format=1.00  terms=0.83
+hardware-tinkerer/original         score= 98.3  ndcg@5_bm25=1.00  ndcg@5_llm=1.00  format=1.00  terms=0.92
+privacy-watch/hn-2026-10-06        score= 98.3  ndcg@5_bm25=0.95  ndcg@5_llm=1.00  format=1.00  terms=0.92
+privacy-watch/original             score=100.0  ndcg@5_bm25=1.00  ndcg@5_llm=1.00  format=1.00  terms=1.00
+
+mean NDCG@5: bm25=0.974  llm_rerank=0.983
+OVERALL 98.3/100

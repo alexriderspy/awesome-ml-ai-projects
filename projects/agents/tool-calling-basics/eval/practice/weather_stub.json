@@ -1,0 +1,5 @@
+{
+  "reykjavik": {"city": "Reykjavik", "country": "Iceland", "local_time": "2026-01-15T12:00", "temperature_c": 4.2, "humidity_pct": 81, "wind_kmh": 31.0, "conditions": "light rain"},
+  "oslo": {"city": "Oslo", "country": "Norway", "local_time": "2026-01-15T12:00", "temperature_c": 7.5, "humidity_pct": 70, "wind_kmh": 12.2, "conditions": "overcast"},
+  "cairo": {"city": "Cairo", "country": "Egypt", "local_time": "2026-01-15T13:00", "temperature_c": 29.1, "humidity_pct": 30, "wind_kmh": 9.0, "conditions": "clear sky"}
+}

@@ -1,0 +1,18 @@
+job-analyst-intern             score= 93.3  f1=0.92  valid=1  attempts=1  missed: salary_max, skills
+job-backend-austin             score= 97.4  f1=0.97  valid=1  attempts=1  missed: skills
+job-barista-wellington         score= 86.7  f1=0.83  valid=1  attempts=1  missed: salary_min, salary_max
+job-frontend-pune              score=100.0  f1=1.00  valid=1  attempts=1
+job-ml-contract                score=100.0  f1=1.00  valid=1  attempts=1
+job-sre-manchester             score= 95.3  f1=0.94  valid=1  attempts=1  missed: skills
+receipt-cafe-leeds             score= 92.7  f1=0.91  valid=1  attempts=1  missed: date
+receipt-hardware-boise         score=  0.0  f1=0.00  valid=0  attempts=3  missed: merchant, date, currency, items, subtotal, discount, tax, tax_included, total, payment_method
+receipt-order-email            score=100.0  f1=1.00  valid=1  attempts=2
+receipt-pizza-sf               score=100.0  f1=1.00  valid=1  attempts=2
+receipt-restaurant-bengaluru   score=100.0  f1=1.00  valid=1  attempts=2
+receipt-supermarket-berlin     score= 86.7  f1=0.83  valid=1  attempts=2  missed: tax_included, total
+
+model: qwen2.5:7b
+micro field F1: P=0.950 R=0.870 F1=0.908
+schema-valid rate: 0.92   valid on first try: 0.58
+confidence >= 0.8: accuracy 0.98 (85 fields)   confidence < 0.8: accuracy 0.73 (11 fields)
+OVERALL 87.7/100

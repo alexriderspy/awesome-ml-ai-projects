@@ -1,0 +1,7 @@
+{
+  "id": "block-left-column",
+  "board": "X..XO....",
+  "kind": "block",
+  "answer": 7,
+  "note": "X has 1 and 4; O must take 7."
+}

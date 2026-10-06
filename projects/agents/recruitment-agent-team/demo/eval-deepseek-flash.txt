@@ -1,0 +1,13 @@
+backend-engineer   score=100.0  f1=1.00 (p=1.00 r=1.00)  quotes=1.00 (32/32, first try 1.00)  schedule=1.00  fairness=1.00
+                   shortlist=['be-01', 'be-02', 'be-06'] gold=['be-01', 'be-02', 'be-06']
+                   counterfactual be-01: same redacted text=True, fit 97.0 vs twin 90.9
+data-analyst       score=100.0  f1=1.00 (p=1.00 r=1.00)  quotes=1.00 (33/33, first try 1.00)  schedule=1.00  fairness=1.00
+                   shortlist=['da-02', 'da-06', 'da-01'] gold=['da-01', 'da-02', 'da-06']
+                   counterfactual da-01: same redacted text=True, fit 69.7 vs twin 66.7
+support-lead       score= 90.0  f1=1.00 (p=1.00 r=1.00)  quotes=1.00 (30/30, first try 1.00)  schedule=1.00  fairness=0.00
+                   shortlist=['sl-01', 'sl-04', 'sl-06'] gold=['sl-01', 'sl-04', 'sl-06']
+                   counterfactual sl-01: same redacted text=True, fit 90.9 vs twin 72.7
+
+LLM calls: 36, tokens in/out: 28858/57311, est. cost $0.0774
+
+OVERALL 96.7/100

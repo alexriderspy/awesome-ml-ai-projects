@@ -1,0 +1,123 @@
+{
+  "description": "every product in the Tools & Supplies listing with its current price and whether it is in stock (not the 'Customers also bought' box)",
+  "schema": {
+    "type": "object",
+    "key": "name",
+    "required": [
+      "name",
+      "price"
+    ],
+    "properties": {
+      "name": {
+        "type": "string",
+        "description": "product name"
+      },
+      "price": {
+        "type": "number",
+        "description": "current price in dollars (the sale price if on sale)"
+      },
+      "in_stock": {
+        "type": "boolean",
+        "description": "false if sold out"
+      }
+    }
+  },
+  "start": "page1.html",
+  "pages": [
+    "page1.html",
+    "page2.html",
+    "page3.html"
+  ],
+  "records": [
+    {
+      "name": "Cedar Raised Bed Kit",
+      "price": 89.0,
+      "in_stock": true
+    },
+    {
+      "name": "Copper Rain Gauge",
+      "price": 24.5,
+      "in_stock": true
+    },
+    {
+      "name": "Ash-Handled Hori Knife",
+      "price": 32.0,
+      "in_stock": true
+    },
+    {
+      "name": "Seed Starting Tray (24 cell)",
+      "price": 7.95,
+      "in_stock": false
+    },
+    {
+      "name": "Coir Pot Sampler",
+      "price": 12.25,
+      "in_stock": true
+    },
+    {
+      "name": "Brass Hose Nozzle",
+      "price": 18.75,
+      "in_stock": true
+    },
+    {
+      "name": "Galvanized Watering Can 2 gal",
+      "price": 41.0,
+      "in_stock": true
+    },
+    {
+      "name": "Bypass Pruners",
+      "price": 27.4,
+      "in_stock": true
+    },
+    {
+      "name": "Worm Composting Bin",
+      "price": 129.0,
+      "in_stock": false
+    },
+    {
+      "name": "Jute Garden Twine",
+      "price": 5.6,
+      "in_stock": true
+    },
+    {
+      "name": "Soil pH Test Strips",
+      "price": 9.99,
+      "in_stock": true
+    },
+    {
+      "name": "Kneeling Pad, Recycled Foam",
+      "price": 14.0,
+      "in_stock": false
+    },
+    {
+      "name": "Hand-Forged Trowel",
+      "price": 36.0,
+      "in_stock": true
+    },
+    {
+      "name": "Bamboo Plant Markers (50)",
+      "price": 6.3,
+      "in_stock": true
+    },
+    {
+      "name": "Rolling Garden Seat",
+      "price": 64.95,
+      "in_stock": true
+    },
+    {
+      "name": "Frost Cloth 10 ft",
+      "price": 19.2,
+      "in_stock": true
+    },
+    {
+      "name": "Bulb Planter with Depth Marks",
+      "price": 16.8,
+      "in_stock": false
+    },
+    {
+      "name": "Willow Harvest Basket",
+      "price": 47.5,
+      "in_stock": true
+    }
+  ]
+}

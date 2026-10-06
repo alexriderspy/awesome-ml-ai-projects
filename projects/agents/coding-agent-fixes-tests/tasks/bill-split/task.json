@@ -1,0 +1,3 @@
+{
+  "issue": "split_bill(100, 3) gives three 33.33 shares, which lose a cent. The shares must add up to the total, with the first people paying the extra cents. to_cents(0.29) also returns 28."
+}

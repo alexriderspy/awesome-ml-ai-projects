@@ -1,0 +1,4 @@
+openai>=1.40
+packaging>=23
+requests>=2.31
+pytest>=7

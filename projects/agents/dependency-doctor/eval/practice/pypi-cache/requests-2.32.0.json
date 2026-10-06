@@ -1,0 +1,7 @@
+{
+ "name": "requests",
+ "version": "2.32.0",
+ "missing": false,
+ "yanked": true,
+ "yanked_reason": "Yanked due to conflicts with CVE-2024-35195 mitigation"
+}

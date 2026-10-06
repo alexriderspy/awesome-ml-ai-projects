@@ -1,0 +1,3 @@
+{
+  "issue": "Pagination is off. get_page(items, 1, size) returns the second page instead of the first, and page_count ignores a last page that is only partly full."
+}

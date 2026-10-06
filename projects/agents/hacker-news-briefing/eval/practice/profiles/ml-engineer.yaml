@@ -1,0 +1,13 @@
+name: Ana
+about: ML engineer who trains and serves language models at a small startup.
+interests:
+  - name: language models
+    weight: 3
+    keywords: [llm, language model, transformer, open-weight, fine-tuning, inference, tokenizer, distillation, chatgpt, gpt, opus, claude]
+  - name: ml research
+    weight: 2
+    keywords: [pretraining, backpropagation, neural network, model training, benchmark, dataset, gpu, chain-of-thought]
+  - name: ai agents
+    weight: 2
+    keywords: [agent, agents, ai, rag]
+dislikes: [crypto, bitcoin, nft, election]

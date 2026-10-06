@@ -1,0 +1,7 @@
+blog       F1=1.000  P=1.00  R=1.00  records=8/8  pages=2 (pagination 1.00)  steps=4  stop=finished
+catalog    F1=1.000  P=1.00  R=1.00  records=18/18  pages=3 (pagination 1.00)  steps=7  stop=finished
+events     F1=1.000  P=1.00  R=1.00  records=11/11  pages=2 (pagination 1.00)  steps=4  stop=finished
+jobs       F1=1.000  P=1.00  R=1.00  records=9/9  pages=2 (pagination 1.00)  steps=4  stop=finished
+registry   F1=1.000  P=1.00  R=1.00  records=6/6  pages=1 (pagination 1.00)  steps=3  stop=finished
+
+OVERALL 100.0/100

@@ -1,0 +1,305 @@
+{
+ "items": [
+  {
+   "id": 49975484,
+   "type": "story",
+   "title": "German Bundeswehr Uses AI to Screen Applicants for Right-Wing Extremism",
+   "url": "https://news.osna.fm/german-military-intelligence-uses-ai-to-screen-bundeswehr-applicants-for-right-wing-extremism/",
+   "score": 18,
+   "descendants": 13,
+   "by": "AmazingTurtle",
+   "time": 1791272947
+  },
+  {
+   "id": 49969183,
+   "type": "story",
+   "title": "Beam: Reflection's 501B open-weight model",
+   "url": "https://reflection.ai/blog/introducing-beam",
+   "score": 435,
+   "descendants": 136,
+   "by": "Philpax",
+   "time": 1791227795
+  },
+  {
+   "id": 49951155,
+   "type": "story",
+   "title": "Accountability mechanisms can be joyful",
+   "url": "https://liquidbrain.net/blog/accountability-and-joy/",
+   "score": 28,
+   "descendants": 1,
+   "by": "luu",
+   "time": 1791094517
+  },
+  {
+   "id": 49975083,
+   "type": "story",
+   "title": "We are going to kill \"unalive\"",
+   "url": "https://www.anildash.com/2026/10/06/kill-unalive/",
+   "score": 63,
+   "descendants": 38,
+   "by": "Tomte",
+   "time": 1791269379
+  },
+  {
+   "id": 49971230,
+   "type": "story",
+   "title": "Find the flattest route between any two points in SF",
+   "url": "https://flattensf.com/",
+   "score": 187,
+   "descendants": 64,
+   "by": "ishan0102",
+   "time": 1791236450
+  },
+  {
+   "id": 49970667,
+   "type": "story",
+   "title": "Opus 5.5 agents discover two room-temperature magnetic semiconductor candidates",
+   "url": "https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors",
+   "score": 342,
+   "descendants": 222,
+   "by": "outlier99",
+   "time": 1791234021
+  },
+  {
+   "id": 49970871,
+   "type": "story",
+   "title": "Dust: Pretraining Transformers Without Backpropagation",
+   "url": "https://qlabs.sh/research/dust",
+   "score": 172,
+   "descendants": 42,
+   "by": "E-Reverance",
+   "time": 1791234907
+  },
+  {
+   "id": 49971719,
+   "type": "story",
+   "title": "Friendship ended with Deno, now Node is my best friend",
+   "url": "https://dbushell.com/2026/10/03/deno-to-node/",
+   "score": 154,
+   "descendants": 82,
+   "by": "ibobev",
+   "time": 1791239402
+  },
+  {
+   "id": 49973878,
+   "type": "story",
+   "title": "Resurrecting iChat Audio and Video Conferencing",
+   "url": "https://blog.pipetogrep.org/2026/09/11/resurrecting-ichat-audio-and-video-conferencing/",
+   "score": 41,
+   "descendants": 12,
+   "by": "thepipetogrep",
+   "time": 1791257941
+  },
+  {
+   "id": 49971921,
+   "type": "story",
+   "title": "Example.com just launched the biggest redesign in decades",
+   "url": "https://www.debugbear.com/blog/example-dot-com-redesign-history",
+   "score": 210,
+   "descendants": 133,
+   "by": "jgx0",
+   "time": 1791240911
+  },
+  {
+   "id": 49963171,
+   "type": "story",
+   "title": "Web Search API",
+   "url": "https://developers.cloudflare.com/changelog/post/2026-10-02-introducing-web-search-api/",
+   "score": 538,
+   "descendants": 244,
+   "by": "tosh",
+   "time": 1791197226
+  },
+  {
+   "id": 49945588,
+   "type": "story",
+   "title": "An algorithmic failure beneath the secret ballot",
+   "url": "https://blog.citp.princeton.edu/2026/08/03/an-algorithmic-failure-beneath-the-secret-ballot/",
+   "score": 76,
+   "descendants": 38,
+   "by": "leecoursey",
+   "time": 1791044587
+  },
+  {
+   "id": 49950653,
+   "type": "story",
+   "title": "Testing 12 different Zigbee temperature/humidity sensors",
+   "url": "https://smarthomescene.com/reviews/best-selling-zigbee-temperature-sensors-tested/",
+   "score": 102,
+   "descendants": 44,
+   "by": "walrus01",
+   "time": 1791088246
+  },
+  {
+   "id": 49973598,
+   "type": "story",
+   "title": "Why Common Lisp is now the best programming language",
+   "url": "https://www.vivienhenz.com/common-lisp",
+   "score": 142,
+   "descendants": 190,
+   "by": "misterchocolat",
+   "time": 1791255111
+  },
+  {
+   "id": 49944049,
+   "type": "story",
+   "title": "Competitive Programmer's Handbook (2018) [pdf]",
+   "url": "https://cses.fi/book/book.pdf",
+   "score": 189,
+   "descendants": 42,
+   "by": "vinhnx",
+   "time": 1791033841
+  },
+  {
+   "id": 49971782,
+   "type": "story",
+   "title": "Global Solar Atlas: summary of solar power potential globally",
+   "url": "https://globalsolaratlas.info/",
+   "score": 51,
+   "descendants": 30,
+   "by": "stratts",
+   "time": 1791239878
+  },
+  {
+   "id": 49944196,
+   "type": "story",
+   "title": "Show HN: Photoc – Command-line tools for photographers",
+   "url": "https://github.com/ahmetomerv/photoc",
+   "score": 30,
+   "descendants": 4,
+   "by": "ahmetomer",
+   "time": 1791034943
+  },
+  {
+   "id": 49953195,
+   "type": "story",
+   "title": "DEDA – Tracking Dots Extraction, Decoding and Anonymisation Toolkit",
+   "url": "https://github.com/dfd-tud/deda",
+   "score": 61,
+   "descendants": 6,
+   "by": "greyface-",
+   "time": 1791115750
+  },
+  {
+   "id": 49971846,
+   "type": "story",
+   "title": "ChatGPT is adding real cartoonists' signatures to fake New Yorker cartoons",
+   "url": "https://www.niemanlab.org/2026/10/chatgpt-is-adding-real-cartoonists-signatures-to-fake-new-yorker-cartoons/",
+   "score": 412,
+   "descendants": 299,
+   "by": "rdmuser",
+   "time": 1791240405
+  },
+  {
+   "id": 49943598,
+   "type": "story",
+   "title": "Show HN: Entombed in a Raycaster",
+   "url": "https://www.stelabouras.com/blog/entombed-raycaster/",
+   "score": 18,
+   "descendants": 4,
+   "by": "stelabouras",
+   "time": 1791029595
+  },
+  {
+   "id": 49972211,
+   "type": "story",
+   "title": "Samon: Designing a Zen Garden Raking Puzzle",
+   "url": "https://gwern.net/doc/design/2026-10-03-gwern-samon.html",
+   "score": 41,
+   "descendants": 19,
+   "by": "networked",
+   "time": 1791243335
+  },
+  {
+   "id": 49965152,
+   "type": "story",
+   "title": "The lamps in my house",
+   "url": "https://arslan.io/2026/10/05/the-lamps-in-my-house/",
+   "score": 190,
+   "descendants": 87,
+   "by": "farslan",
+   "time": 1791209534
+  },
+  {
+   "id": 49972008,
+   "type": "story",
+   "title": "Ephemeral Testing",
+   "url": "https://lemire.me/blog/2026/10/05/ephemeral-testing/",
+   "score": 53,
+   "descendants": 18,
+   "by": "ibobev",
+   "time": 1791241596
+  },
+  {
+   "id": 49953344,
+   "type": "story",
+   "title": "The complement of true is true, except when it's false",
+   "url": "https://dryperspective.github.io/posts/complement-of-true/",
+   "score": 6,
+   "descendants": 0,
+   "by": "aw1621107",
+   "time": 1791116935
+  },
+  {
+   "id": 49962857,
+   "type": "story",
+   "title": "Apple and a hacker's future",
+   "url": "https://stratechery.com/2026/apple-and-a-hackers-future/",
+   "score": 250,
+   "descendants": 213,
+   "by": "maguay",
+   "time": 1791194702
+  },
+  {
+   "id": 49971523,
+   "type": "story",
+   "title": "Texas city demands $2M for public records on Flock usage",
+   "url": "https://arstechnica.com/tech-policy/2026/10/texas-city-demands-2m-for-public-records-on-flock-usage/",
+   "score": 194,
+   "descendants": 29,
+   "by": "01-_-",
+   "time": 1791237957
+  },
+  {
+   "id": 49965308,
+   "type": "story",
+   "title": "Making a GTK application in Haskell, part 1",
+   "url": "https://floreal.tech/blog/2026/making-a-gtk-app-in-haskell-part-1/",
+   "score": 154,
+   "descendants": 40,
+   "by": "Vosporos",
+   "time": 1791210227
+  },
+  {
+   "id": 49961861,
+   "type": "story",
+   "title": "Qualcomm licenses patents on Huawei’s LogicFolding chip tech",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-05/qualcomm-licenses-patents-on-huawei-s-logicfolding-chip-tech",
+   "score": 189,
+   "descendants": 125,
+   "by": "0xedb",
+   "time": 1791186370,
+   "text": "https://archive.ph/Axpbl https://www.huawei.com/en/news/2026/10/qualcomm-broad-patent..."
+  },
+  {
+   "id": 49952464,
+   "type": "story",
+   "title": "Ocean the Man Who Listens to Whales",
+   "url": "https://blue-continuum.com/the-man-who-listens-to-whales",
+   "score": 11,
+   "descendants": 4,
+   "by": "dnetesn",
+   "time": 1791108913
+  },
+  {
+   "id": 49920785,
+   "type": "story",
+   "title": "The first fully implanted cochlear implant reaches patients",
+   "url": "https://spectrum.ieee.org/fully-implantable-cochlear-implant",
+   "score": 88,
+   "descendants": 70,
+   "by": "rbanffy",
+   "time": 1790857900
+  }
+ ]
+}

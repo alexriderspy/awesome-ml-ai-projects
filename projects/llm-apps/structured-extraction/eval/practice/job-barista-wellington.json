@@ -1,0 +1,22 @@
+{
+ "id": "job-barista-wellington",
+ "schema": "job_post",
+ "text": "Part-time Barista wanted at Copper Kettle Coffee (Wellington CBD)!\n20 hrs/week, weekend shifts. $26.50 per hour (NZD).\nMust have: espresso machine experience, food safety certificate.\nApplications close 1 March 2026.",
+ "gold": {
+  "title": "Barista",
+  "company": "Copper Kettle Coffee",
+  "location": "Wellington",
+  "work_mode": "onsite",
+  "employment_type": "part-time",
+  "salary_min": 26.5,
+  "salary_max": 26.5,
+  "salary_currency": "NZD",
+  "salary_period": "hour",
+  "min_years_experience": null,
+  "skills": [
+   "espresso machine",
+   "food safety certificate"
+  ],
+  "apply_by": "2026-03-01"
+ }
+}

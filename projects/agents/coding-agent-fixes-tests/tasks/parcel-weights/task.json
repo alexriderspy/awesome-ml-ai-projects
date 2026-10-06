@@ -1,0 +1,3 @@
+{
+  "issue": "Almost every parcel is classed as 'large'. A 1.5 kg parcel should be 'small'. Pounds ('lb') are also not supported yet (1 lb = 453.592 g)."
+}

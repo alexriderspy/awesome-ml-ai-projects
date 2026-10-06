@@ -1,0 +1,23 @@
+{"_note": "Original stories written for this repo. Titles, domains and numbers are made up.",
+ "items": [
+ {"id": 9000001, "type": "story", "title": "Fine-tuning a 7B model on a single consumer GPU in six hours", "url": "https://notes.example.dev/finetune-7b", "score": 312, "descendants": 88, "by": "kestrel", "time": 1791100000},
+ {"id": 9000002, "type": "story", "title": "Postgres 19 adds incremental view maintenance", "url": "https://pg-weekly.example.org/ivm", "score": 405, "descendants": 120, "by": "relvar", "time": 1791100100},
+ {"id": 9000003, "type": "story", "title": "Why we moved from Kubernetes back to plain VMs", "url": "https://blog.example.io/k8s-exit", "score": 520, "descendants": 341, "by": "opsgal", "time": 1791100200},
+ {"id": 9000004, "type": "story", "title": "Bitcoin ETF inflows hit a record week", "url": "https://markets.example.com/btc-etf", "score": 140, "descendants": 210, "by": "hodl", "time": 1791100300},
+ {"id": 9000005, "type": "story", "title": "Ask HN: How do you keep a home lab quiet?", "url": "", "score": 96, "descendants": 133, "by": "fanless", "time": 1791100400, "text": "My rack of mini PCs, a NAS and a Zigbee hub sits in the hallway. The fans are driving my family mad. What did you change?"},
+ {"id": 9000006, "type": "story", "title": "A tiny RISC-V soldering kit that runs Linux", "url": "https://hackaday.example.net/riscv-kit", "score": 233, "descendants": 61, "by": "fluxpen", "time": 1791100500},
+ {"id": 9000007, "type": "story", "title": "City council votes to ban facial recognition in schools", "url": "https://localnews.example.com/facial-ban", "score": 288, "descendants": 140, "by": "civic", "time": 1791100600},
+ {"id": 9000008, "type": "story", "title": "Show HN: A SQLite extension for vector search", "url": "https://github.com/example/sqlite-vec-lite", "score": 177, "descendants": 45, "by": "btree", "time": 1791100700},
+ {"id": 9000009, "type": "story", "title": "The quiet death of the RSS reader", "url": "https://essays.example.org/rss", "score": 210, "descendants": 190, "by": "feedme", "time": 1791100800},
+ {"id": 9000010, "type": "story", "title": "Benchmarking tokenizers: BPE vs unigram on source code", "url": "https://research.example.ai/tokenizers", "score": 150, "descendants": 32, "by": "merges", "time": 1791100900},
+ {"id": 9000011, "type": "story", "title": "NFT marketplace lays off 40% of staff", "url": "https://news.example.com/nft-layoffs", "score": 98, "descendants": 77, "by": "jpeg", "time": 1791101000},
+ {"id": 9000012, "type": "story", "title": "Building a weather station with an ESP32 and an e-paper display", "url": "https://makers.example.dev/esp32-weather", "score": 190, "descendants": 54, "by": "baro", "time": 1791101100},
+ {"id": 9000013, "type": "story", "title": "Leaked memo shows data broker selling location data to police", "url": "https://investigations.example.org/broker", "score": 610, "descendants": 280, "by": "foia", "time": 1791101200},
+ {"id": 9000014, "type": "story", "title": "TypeScript 7 native compiler is 10x faster", "url": "https://devblogs.example.com/ts7", "score": 702, "descendants": 395, "by": "tsc", "time": 1791101300},
+ {"id": 9000015, "type": "story", "title": "Distilling chain-of-thought into small models: what actually transfers", "url": "https://arxiv.example.org/abs/2610.01234", "score": 165, "descendants": 29, "by": "logit", "time": 1791101400},
+ {"id": 9000016, "type": "story", "title": "Restoring a 1970s analog synthesizer", "url": "https://synthblog.example.net/restore", "score": 143, "descendants": 38, "by": "vco", "time": 1791101500},
+ {"id": 9000017, "type": "story", "title": "Senate hearing on AI copyright and training data", "url": "https://policy.example.gov/hearing", "score": 260, "descendants": 230, "by": "clerk", "time": 1791101600},
+ {"id": 9000018, "type": "story", "title": "Rust in the Linux kernel: two years of lessons", "url": "https://lwn.example.net/rust-kernel", "score": 455, "descendants": 260, "by": "borrowck", "time": 1791101700},
+ {"id": 9000019, "type": "story", "title": "How we cut our LLM inference bill by 70% with speculative decoding", "url": "https://eng.example.com/spec-decode", "score": 380, "descendants": 101, "by": "draftmodel", "time": 1791101800},
+ {"id": 9000020, "type": "story", "title": "The economics of rooftop solar batteries in 2026", "url": "https://energy.example.org/solar-batteries", "score": 205, "descendants": 160, "by": "kwh", "time": 1791101900}
+ ]}

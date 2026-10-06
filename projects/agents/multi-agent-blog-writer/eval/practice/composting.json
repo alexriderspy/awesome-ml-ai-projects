@@ -1,0 +1,109 @@
+{
+ "id": "composting",
+ "topic": "Hot vs cold composting at home",
+ "word_budget": 500,
+ "facts": [
+  {
+   "fact": "mix browns (carbon) and greens (nitrogen)",
+   "keywords": [
+    [
+     "browns",
+     "brown"
+    ],
+    [
+     "greens",
+     "green"
+    ]
+   ]
+  },
+  {
+   "fact": "carbon-to-nitrogen ratio around 30:1",
+   "keywords": [
+    [
+     "30:1",
+     "30 to 1",
+     "thirty to one",
+     "30 parts"
+    ]
+   ]
+  },
+  {
+   "fact": "hot piles reach 55-65°C, which kills weed seeds",
+   "keywords": [
+    [
+     "55",
+     "60",
+     "65"
+    ],
+    [
+     "weed seed",
+     "weed seeds",
+     "pathogen",
+     "pathogens"
+    ]
+   ]
+  },
+  {
+   "fact": "turning adds oxygen",
+   "keywords": [
+    [
+     "turn",
+     "turning",
+     "turned"
+    ],
+    [
+     "oxygen",
+     "air",
+     "aerat"
+    ]
+   ]
+  },
+  {
+   "fact": "cold composting takes about 6-12 months or more",
+   "keywords": [
+    [
+     "6 to 12",
+     "6-12",
+     "6–12",
+     "six to twelve",
+     "6 and 12",
+     "a year",
+     "12 months",
+     "twelve months"
+    ]
+   ]
+  }
+ ],
+ "search_results": [
+  {
+   "title": "Compost basics: browns and greens",
+   "url": "https://grow-notes.example.org/compost/basics",
+   "snippet": "Compost needs two kinds of material. Browns are dry, carbon-rich things like dead leaves, straw and cardboard. Greens are moist, nitrogen-rich things like vegetable scraps, coffee grounds and grass clippings."
+  },
+  {
+   "title": "Getting the mix right",
+   "url": "https://grow-notes.example.org/compost/ratio",
+   "snippet": "Microbes work fastest at a carbon-to-nitrogen ratio of roughly 30:1. In practice that is about two to three buckets of browns for every bucket of greens. Too many greens smell; too many browns barely break down."
+  },
+  {
+   "title": "Hot composting in 4-8 weeks",
+   "url": "https://garden-science.example.com/hot-composting",
+   "snippet": "A hot pile needs to be at least about one cubic metre so it can hold heat. Kept damp and turned every few days, it reaches 55-65°C in the centre. That heat speeds decomposition and kills most weed seeds and plant pathogens."
+  },
+  {
+   "title": "Why turning matters",
+   "url": "https://garden-science.example.com/turning",
+   "snippet": "The microbes in a hot pile use oxygen quickly. Turning the pile with a fork mixes the outside into the middle and lets air back in; without it the centre goes anaerobic and starts to smell."
+  },
+  {
+   "title": "Cold composting: the lazy method",
+   "url": "https://allotment-diary.example.net/cold-compost",
+   "snippet": "Cold composting means adding scraps as you get them and leaving the heap mostly alone. It takes much less work but often needs 6 to 12 months, sometimes longer, and it will not reliably kill weed seeds, so keep seeding weeds out."
+  },
+  {
+   "title": "How to tell compost is ready",
+   "url": "https://allotment-diary.example.net/finished",
+   "snippet": "Finished compost is dark, crumbly and smells earthy. You should not recognise the original scraps. Screening out lumps and putting them back in the next batch is common."
+  }
+ ]
+}

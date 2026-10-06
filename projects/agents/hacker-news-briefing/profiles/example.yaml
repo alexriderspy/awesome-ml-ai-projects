@@ -1,0 +1,18 @@
+name: Sam
+about: Software engineer who builds LLM features on a Python and Postgres backend, and cares about privacy.
+interests:
+  - name: language models
+    weight: 3
+    keywords: [llm, language model, open-weight, transformer, fine-tuning, inference, agents, chatgpt, claude, opus, gpt]
+  - name: ml research
+    weight: 2
+    keywords: [pretraining, backpropagation, benchmark, dataset, gpu, neural network]
+  - name: backend and databases
+    weight: 2
+    keywords: [postgres, sqlite, database, python, api, node, deno, testing]
+  - name: privacy and surveillance
+    weight: 1.5
+    keywords: [privacy, surveillance, tracking, flock, encryption, public records]
+dislikes: [crypto, bitcoin, nft, sports]
+dislike_weight: 2.0
+prior_weight: 0.5

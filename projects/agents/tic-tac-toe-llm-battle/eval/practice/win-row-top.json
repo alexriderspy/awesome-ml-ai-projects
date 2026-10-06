@@ -1,0 +1,7 @@
+{
+  "id": "win-row-top",
+  "board": "XX.OO....",
+  "kind": "win",
+  "answer": 3,
+  "note": "X has 1 and 2; O also threatens 6, but winning now comes first."
+}

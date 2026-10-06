@@ -1,0 +1,31 @@
+{
+ "id": "https",
+ "topic": "How HTTPS keeps web traffic private",
+ "n_slides": 6,
+ "keywords": [
+  [
+   "tls",
+   "ssl"
+  ],
+  [
+   "certificate"
+  ],
+  [
+   "handshake"
+  ],
+  [
+   "encrypt"
+  ],
+  [
+   "public key",
+   "asymmetric",
+   "key exchange"
+  ],
+  [
+   "certificate authority",
+   "certificate authorities",
+   " ca ",
+   " cas "
+  ]
+ ]
+}

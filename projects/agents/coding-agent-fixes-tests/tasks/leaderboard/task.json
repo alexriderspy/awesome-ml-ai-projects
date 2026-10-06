@@ -1,0 +1,3 @@
+{
+  "issue": "Players with equal scores come out in reverse alphabetical order, and capitalised names sort before lowercase ones. Ties should be alphabetical, ignoring case."
+}

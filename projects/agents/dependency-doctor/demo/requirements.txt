@@ -1,0 +1,12 @@
+# an older internal tool, now deployed on Python 3.12
+fastapi==0.110.0
+pydantic==2.12.1
+requests==2.32.1
+httpx
+mock==5.1.0
+importlib-metadata==7.0.0
+six==1.16.0
+uuid
+PyYAML==6.0.1
+pyyaml>=5.4
+tenacity>=8.2

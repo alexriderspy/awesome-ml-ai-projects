@@ -1,0 +1,253 @@
+{
+  "labels": {
+    "1": [
+      "feature",
+      "good-first-issue"
+    ],
+    "2": [
+      "bug",
+      "good-first-issue"
+    ],
+    "3": [
+      "bug"
+    ],
+    "4": [
+      "question"
+    ],
+    "5": [
+      "docs",
+      "good-first-issue"
+    ],
+    "6": [
+      "bug"
+    ],
+    "7": [
+      "feature"
+    ],
+    "8": [
+      "bug"
+    ],
+    "9": [
+      "docs",
+      "good-first-issue"
+    ],
+    "10": [
+      "feature",
+      "performance"
+    ],
+    "11": [
+      "question"
+    ],
+    "12": [
+      "bug",
+      "needs-repro"
+    ],
+    "13": [
+      "feature"
+    ],
+    "14": [
+      "bug"
+    ],
+    "15": [
+      "docs"
+    ],
+    "16": [
+      "feature"
+    ],
+    "17": [
+      "bug"
+    ],
+    "18": [
+      "bug",
+      "performance"
+    ],
+    "19": [
+      "question"
+    ],
+    "20": [
+      "feature",
+      "good-first-issue"
+    ],
+    "21": [
+      "feature"
+    ],
+    "22": [
+      "bug"
+    ],
+    "23": [
+      "docs",
+      "good-first-issue"
+    ],
+    "24": [
+      "bug"
+    ],
+    "25": [
+      "question"
+    ],
+    "26": [
+      "feature",
+      "good-first-issue"
+    ],
+    "27": [
+      "bug",
+      "performance"
+    ],
+    "28": [
+      "bug"
+    ],
+    "29": [
+      "docs"
+    ],
+    "30": [
+      "bug"
+    ],
+    "31": [
+      "feature"
+    ],
+    "32": [
+      "bug",
+      "needs-repro"
+    ],
+    "33": [
+      "bug"
+    ],
+    "34": [
+      "question"
+    ],
+    "35": [
+      "docs",
+      "good-first-issue"
+    ],
+    "36": [
+      "feature",
+      "good-first-issue"
+    ],
+    "37": [
+      "bug"
+    ],
+    "38": [
+      "bug"
+    ],
+    "39": [
+      "bug"
+    ],
+    "40": [
+      "bug"
+    ],
+    "41": [
+      "bug"
+    ],
+    "42": [
+      "feature"
+    ],
+    "43": [
+      "question"
+    ],
+    "44": [
+      "bug"
+    ],
+    "45": [
+      "feature"
+    ],
+    "46": [
+      "bug"
+    ],
+    "47": [
+      "docs",
+      "good-first-issue"
+    ],
+    "48": [
+      "bug",
+      "performance"
+    ],
+    "49": [
+      "bug",
+      "needs-repro"
+    ],
+    "50": [
+      "question"
+    ],
+    "51": [
+      "feature"
+    ],
+    "52": [
+      "bug"
+    ],
+    "53": [
+      "bug"
+    ],
+    "54": [
+      "feature"
+    ],
+    "55": [
+      "question"
+    ],
+    "56": [
+      "bug"
+    ],
+    "57": [
+      "feature",
+      "performance"
+    ],
+    "58": [
+      "docs",
+      "good-first-issue"
+    ],
+    "59": [
+      "bug"
+    ],
+    "60": [
+      "bug"
+    ]
+  },
+  "duplicates": [
+    {
+      "issue": 37,
+      "duplicate_of": 8
+    },
+    {
+      "issue": 40,
+      "duplicate_of": 14
+    },
+    {
+      "issue": 42,
+      "duplicate_of": 21
+    },
+    {
+      "issue": 44,
+      "duplicate_of": 3
+    },
+    {
+      "issue": 46,
+      "duplicate_of": 39
+    },
+    {
+      "issue": 48,
+      "duplicate_of": 27
+    },
+    {
+      "issue": 50,
+      "duplicate_of": 11
+    },
+    {
+      "issue": 52,
+      "duplicate_of": 17
+    },
+    {
+      "issue": 54,
+      "duplicate_of": 45
+    },
+    {
+      "issue": 56,
+      "duplicate_of": 30
+    },
+    {
+      "issue": 58,
+      "duplicate_of": 5
+    },
+    {
+      "issue": 60,
+      "duplicate_of": 24
+    }
+  ]
+}

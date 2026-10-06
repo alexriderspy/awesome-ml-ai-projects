@@ -1,0 +1,4 @@
+openai>=1.40
+streamlit>=1.35
+pandas>=2.0
+pytest>=7

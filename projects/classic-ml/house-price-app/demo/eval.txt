@@ -1,0 +1,10 @@
+test rows: 4128   (prices in $100k)
+model                     RMSE     MAE
+predict train mean      1.1449  0.9061
+linear regression       0.7456  0.5332
+gradient boosting       0.4444  0.2885
+
+80% band: coverage 0.791, mean width 0.914
+rmse_skill=0.612  mae_skill=0.682  calibration=0.989
+
+OVERALL 72.4/100

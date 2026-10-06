@@ -1,0 +1,7 @@
+{
+  "id": "block-main-diagonal",
+  "board": "XO..X....",
+  "kind": "block",
+  "answer": 9,
+  "note": "X has 1 and 5; O must take 9."
+}

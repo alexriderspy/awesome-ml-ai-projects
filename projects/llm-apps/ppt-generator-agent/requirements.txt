@@ -1,0 +1,8 @@
+openai>=1.40
+pydantic>=2.6
+python-pptx>=1.0
+requests>=2.31
+pypdfium2>=4.0   # only for PNG previews (with LibreOffice)
+Pillow>=10
+streamlit>=1.35
+pytest>=7

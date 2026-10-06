@@ -1,0 +1,7 @@
+{
+ "name": "cryptography",
+ "version": "38.0.2",
+ "missing": false,
+ "yanked": true,
+ "yanked_reason": "Regression in OpenSSL."
+}
